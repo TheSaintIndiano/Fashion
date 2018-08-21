@@ -12,10 +12,10 @@ Sportswear is also at times worn as casual fashion clothing.
 
 Sportswear classification has been divided into different modules based of Sklearn, keras machine learning frameworks. I also have used Auto-Sklearn, TPOT auto-ml for exhaustive optimizations and parameter space searches.
 
-Algorithms used are as follow.
-Sklearn : Xtreme Gradient Boosting, K Nearest Neighbours, Support Vector Machines, Naive Bayes
+Algorithms used in different modules are as follow.
 
-Keras : LSTMs with Embedding and/or TF-IDF 
+⋅⋅*Sklearn : Xtreme Gradient Boosting, K Nearest Neighbours, Support Vector Machines, Naive Bayes
+⋅⋅*Keras : LSTMs with Embedding and/or TF-IDF 
 
 # Run Scripts
 
