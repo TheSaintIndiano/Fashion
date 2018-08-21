@@ -14,6 +14,7 @@ Sportswear classification has been divided into different modules based of Sklea
 
 Algorithms used are as follow.
 Sklearn : Xtreme Gradient Boosting, K Nearest Neighbours, Support Vector Machines, Naive Bayes
+
 Keras : LSTMs with Embedding and/or TF-IDF 
 
 # Run Scripts
