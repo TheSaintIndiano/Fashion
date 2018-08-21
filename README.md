@@ -1,4 +1,4 @@
-# Fashion
+# Sportswear Classification
 
 Sportswear or activewear is clothing, including footwear, worn for sport or physical exercise. Sport-specific clothing is worn for most sports and physical exercise, for practical, comfort or safety reasons.
 Typical sport-specific garments include shorts, tracksuits, T-shirts, tennis shirts and polo shirts.
@@ -11,9 +11,56 @@ Sportswear is also at times worn as casual fashion clothing.
 
 # Run scripts
 
-python run.py
 
-# With the default arguments
+### auto-sklearn
 
-python run.py --root_dir shopify --data_dir "shopify/data" --hdf_file shopify --raw_event_folder "shopify/data/sportswear/events" --save_dir "shopify/save" --model xgb --test_size 33
+###### Folder : models/auto-sklearn/
 
+Training:
+
+python run.py --root_dir "./" --data_dir "../../data/sportswear/events" --hdf_file "../../data/hdf/sportswear" 
+--checkpoint_dir "../../checkpoint/auto-sklearn" --save_dir "../../save/auto-sklearn" --test_size 33 
+
+Sampling:
+
+python run.py --root_dir "./" --data_dir "../../data/sportswear/events" --hdf_file "../../data/hdf/sportswear" 
+--checkpoint_dir "../../checkpoint/auto-sklearn" --save_dir "../../save/auto-sklearn" --test_size 33 --run_type sample
+
+### tpot
+
+###### Folder : models/auto-tpot/
+
+Training:
+
+python run.py --root_dir "./" --data_dir "../../data/sportswear/events" --hdf_file "../../data/hdf/sportswear" 
+--checkpoint_dir "../../checkpoint/auto-tpot" --save_dir "../../save/auto-tpot" --test_size 33 
+
+Sampling:
+
+python sample.py --root_dir "./" --data_dir "../../data/sportswear/events" --hdf_file "../../data/hdf/sportswear" 
+--checkpoint_dir "../../checkpoint/auto-tpot" --save_dir "../../save/auto-tpot" --test_size 33
+
+### Classical models (XGB, KNN, Naive Bayes, Support Vector)
+
+###### Folder : models/classical/
+
+python run.py --root_dir "./" --raw_data_dir "../../data/raw/sportswear/events" --hdf_file "../../data/hdf/sportswear" 
+--checkpoint_dir "../../checkpoint/classical" --save_dir "../../save/classical" --model xgb --test_size 33
+
+
+### Keras
+
+###### Folder : models/keras/
+##### Using Keras Tokenizer with Embedding layer
+##### Using Keras Tokenizer with TF-IDF
+##### Using Keras with TF-IDF only
+
+Training:
+
+python run.py --root_dir "./" --data_dir "../../data/keras" --hdf_file "../../data/hdf/sportswear" 
+--checkpoint_dir "../../checkpoint/keras" --save_dir "../../save/keras" --test_size 33 
+
+Sampling:
+
+python run.py --root_dir "./" --data_dir "../../data/keras" --hdf_file "../../data/hdf/sportswear" 
+--checkpoint_dir "../../checkpoint/keras" --save_dir "../../save/keras" --test_size 33 --run_type sample
