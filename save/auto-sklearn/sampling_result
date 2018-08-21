@@ -1,0 +1,259 @@
+/home/indiano/miniconda3/envs/tf/bin/python /home/indiano/git/SportsWear/model/auto-sklearn/run.py --root_dir ./ --data_dir ../../data/sportswear/events --hdf_file ../../data/hdf/sportswear --checkpoint_dir ../../checkpoint/auto-sklearn --save_dir ../../save/auto-sklearn --test_size 33 --run_type sample
+*******************
+Train set : 8291
+ Test set : 4085
+*******************
+
+
+
+****************** Auto Sklearn sampling started. *******************
+
+
+Loading the best model discovered through auto-sklearn.
+The best models discovered through Auto-Sklearn is [(0.12, SimpleClassificationPipeline({'classifier:adaboost:learning_rate': 0.24585586662439612, 'classifier:adaboost:n_estimators': 330, 'classifier:adaboost:algorithm': 'SAMME', 'categorical_encoding:one_hot_encoding:use_minimum_fraction': 'True', 'rescaling:__choice__': 'normalize', 'balancing:strategy': 'weighting', 'preprocessor:__choice__': 'no_preprocessing', 'categorical_encoding:__choice__': 'one_hot_encoding', 'classifier:__choice__': 'adaboost', 'imputation:strategy': 'median', 'categorical_encoding:one_hot_encoding:minimum_fraction': 0.2159437391641331, 'classifier:adaboost:max_depth': 6},
+dataset_properties={
+  'multiclass': False,
+  'target_type': 'classification',
+  'task': 1,
+  'multilabel': False,
+  'sparse': True,
+  'signed': False})), (0.1, SimpleClassificationPipeline({'classifier:libsvm_svc:C': 1255.9137433589424, 'classifier:libsvm_svc:kernel': 'rbf', 'classifier:libsvm_svc:tol': 0.00017919875199222518, 'categorical_encoding:one_hot_encoding:use_minimum_fraction': 'True', 'rescaling:__choice__': 'normalize', 'balancing:strategy': 'weighting', 'preprocessor:__choice__': 'no_preprocessing', 'classifier:libsvm_svc:gamma': 0.08351549479967445, 'categorical_encoding:__choice__': 'one_hot_encoding', 'classifier:libsvm_svc:max_iter': -1, 'classifier:__choice__': 'libsvm_svc', 'classifier:libsvm_svc:shrinking': 'True', 'categorical_encoding:one_hot_encoding:minimum_fraction': 0.004980497345831963, 'imputation:strategy': 'mean'},
+dataset_properties={
+  'multiclass': False,
+  'target_type': 'classification',
+  'task': 1,
+  'multilabel': False,
+  'sparse': True,
+  'signed': False})), (0.08, SimpleClassificationPipeline({'classifier:libsvm_svc:C': 21465.94300620799, 'classifier:libsvm_svc:kernel': 'sigmoid', 'classifier:libsvm_svc:coef0': 0.9674382598902596, 'classifier:libsvm_svc:tol': 1.1994884859495466e-05, 'rescaling:__choice__': 'normalize', 'balancing:strategy': 'none', 'preprocessor:__choice__': 'no_preprocessing', 'classifier:libsvm_svc:gamma': 0.00410145157284774, 'categorical_encoding:__choice__': 'no_encoding', 'classifier:libsvm_svc:max_iter': -1, 'classifier:__choice__': 'libsvm_svc', 'classifier:libsvm_svc:shrinking': 'True', 'imputation:strategy': 'median'},
+dataset_properties={
+  'multiclass': False,
+  'target_type': 'classification',
+  'task': 1,
+  'multilabel': False,
+  'sparse': True,
+  'signed': False})), (0.08, SimpleClassificationPipeline({'classifier:adaboost:learning_rate': 0.05930770715655241, 'preprocessor:select_percentile_classification:score_func': 'chi2', 'classifier:adaboost:n_estimators': 360, 'classifier:adaboost:algorithm': 'SAMME', 'rescaling:__choice__': 'standardize', 'balancing:strategy': 'none', 'preprocessor:__choice__': 'select_percentile_classification', 'categorical_encoding:__choice__': 'no_encoding', 'preprocessor:select_percentile_classification:percentile': 71.09953199485247, 'classifier:__choice__': 'adaboost', 'imputation:strategy': 'median', 'classifier:adaboost:max_depth': 9},
+dataset_properties={
+  'multiclass': False,
+  'target_type': 'classification',
+  'task': 1,
+  'multilabel': False,
+  'sparse': True,
+  'signed': False})), (0.06, SimpleClassificationPipeline({'classifier:sgd:alpha': 1.0780644480287514e-05, 'rescaling:__choice__': 'normalize', 'preprocessor:liblinear_svc_preprocessor:C': 0.5770224171945469, 'preprocessor:liblinear_svc_preprocessor:dual': 'False', 'preprocessor:liblinear_svc_preprocessor:fit_intercept': 'True', 'classifier:sgd:l1_ratio': 0.4317556182779673, 'classifier:sgd:fit_intercept': 'True', 'classifier:sgd:average': 'False', 'preprocessor:liblinear_svc_preprocessor:multi_class': 'ovr', 'classifier:sgd:epsilon': 5.5590679369768634e-05, 'categorical_encoding:one_hot_encoding:minimum_fraction': 0.02522176503208763, 'imputation:strategy': 'mean', 'classifier:sgd:loss': 'modified_huber', 'preprocessor:liblinear_svc_preprocessor:tol': 0.015420029551647053, 'preprocessor:liblinear_svc_preprocessor:penalty': 'l1', 'categorical_encoding:__choice__': 'one_hot_encoding', 'preprocessor:liblinear_svc_preprocessor:intercept_scaling': 1, 'categorical_encoding:one_hot_encoding:use_minimum_fraction': 'True', 'preprocessor:liblinear_svc_preprocessor:loss': 'squared_hinge', 'classifier:sgd:tol': 1.1212429965808787e-05, 'balancing:strategy': 'weighting', 'preprocessor:__choice__': 'liblinear_svc_preprocessor', 'classifier:sgd:penalty': 'elasticnet', 'classifier:__choice__': 'sgd', 'classifier:sgd:learning_rate': 'optimal'},
+dataset_properties={
+  'multiclass': False,
+  'target_type': 'classification',
+  'task': 1,
+  'multilabel': False,
+  'sparse': True,
+  'signed': False})), (0.06, SimpleClassificationPipeline({'classifier:passive_aggressive:fit_intercept': 'True', 'classifier:passive_aggressive:loss': 'squared_hinge', 'preprocessor:liblinear_svc_preprocessor:loss': 'squared_hinge', 'preprocessor:liblinear_svc_preprocessor:C': 1.0, 'preprocessor:liblinear_svc_preprocessor:penalty': 'l1', 'preprocessor:liblinear_svc_preprocessor:multi_class': 'ovr', 'preprocessor:liblinear_svc_preprocessor:dual': 'False', 'preprocessor:liblinear_svc_preprocessor:fit_intercept': 'True', 'categorical_encoding:one_hot_encoding:use_minimum_fraction': 'False', 'rescaling:__choice__': 'none', 'classifier:passive_aggressive:C': 0.004872725678770346, 'preprocessor:liblinear_svc_preprocessor:intercept_scaling': 1, 'balancing:strategy': 'weighting', 'preprocessor:__choice__': 'liblinear_svc_preprocessor', 'categorical_encoding:__choice__': 'one_hot_encoding', 'classifier:passive_aggressive:tol': 1.3258146886140332e-05, 'classifier:__choice__': 'passive_aggressive', 'classifier:passive_aggressive:average': 'True', 'preprocessor:liblinear_svc_preprocessor:tol': 0.00010000000000000009, 'imputation:strategy': 'median'},
+dataset_properties={
+  'multiclass': False,
+  'target_type': 'classification',
+  'task': 1,
+  'multilabel': False,
+  'sparse': True,
+  'signed': False})), (0.06, SimpleClassificationPipeline({'classifier:liblinear_svc:loss': 'squared_hinge', 'preprocessor:liblinear_svc_preprocessor:loss': 'squared_hinge', 'preprocessor:liblinear_svc_preprocessor:C': 0.4971515945303584, 'preprocessor:liblinear_svc_preprocessor:dual': 'False', 'preprocessor:liblinear_svc_preprocessor:fit_intercept': 'True', 'classifier:liblinear_svc:tol': 0.00010000000000000009, 'classifier:liblinear_svc:penalty': 'l2', 'categorical_encoding:__choice__': 'one_hot_encoding', 'classifier:liblinear_svc:multi_class': 'ovr', 'preprocessor:liblinear_svc_preprocessor:tol': 3.9937571235550555e-05, 'imputation:strategy': 'most_frequent', 'classifier:liblinear_svc:intercept_scaling': 1, 'classifier:liblinear_svc:dual': 'False', 'preprocessor:liblinear_svc_preprocessor:penalty': 'l1', 'preprocessor:liblinear_svc_preprocessor:multi_class': 'ovr', 'preprocessor:liblinear_svc_preprocessor:intercept_scaling': 1, 'categorical_encoding:one_hot_encoding:use_minimum_fraction': 'False', 'rescaling:__choice__': 'none', 'balancing:strategy': 'weighting', 'preprocessor:__choice__': 'liblinear_svc_preprocessor', 'classifier:liblinear_svc:fit_intercept': 'True', 'classifier:__choice__': 'liblinear_svc', 'classifier:liblinear_svc:C': 1.0},
+dataset_properties={
+  'multiclass': False,
+  'target_type': 'classification',
+  'task': 1,
+  'multilabel': False,
+  'sparse': True,
+  'signed': False})), (0.06, SimpleClassificationPipeline({'classifier:adaboost:learning_rate': 0.24585586662439612, 'classifier:adaboost:n_estimators': 330, 'preprocessor:select_rates:score_func': 'chi2', 'classifier:adaboost:algorithm': 'SAMME', 'preprocessor:select_rates:mode': 'fpr', 'categorical_encoding:one_hot_encoding:use_minimum_fraction': 'True', 'rescaling:__choice__': 'normalize', 'balancing:strategy': 'none', 'preprocessor:__choice__': 'select_rates', 'categorical_encoding:__choice__': 'one_hot_encoding', 'classifier:__choice__': 'adaboost', 'categorical_encoding:one_hot_encoding:minimum_fraction': 0.2159437391641331, 'imputation:strategy': 'median', 'preprocessor:select_rates:alpha': 0.06541751794377912, 'classifier:adaboost:max_depth': 9},
+dataset_properties={
+  'multiclass': False,
+  'target_type': 'classification',
+  'task': 1,
+  'multilabel': False,
+  'sparse': True,
+  'signed': False})), (0.04, SimpleClassificationPipeline({'classifier:adaboost:learning_rate': 1.494809921770793, 'classifier:adaboost:n_estimators': 338, 'classifier:adaboost:algorithm': 'SAMME.R', 'categorical_encoding:one_hot_encoding:use_minimum_fraction': 'True', 'rescaling:__choice__': 'normalize', 'balancing:strategy': 'weighting', 'preprocessor:__choice__': 'no_preprocessing', 'categorical_encoding:__choice__': 'one_hot_encoding', 'classifier:__choice__': 'adaboost', 'imputation:strategy': 'median', 'categorical_encoding:one_hot_encoding:minimum_fraction': 0.19791786682642942, 'classifier:adaboost:max_depth': 2},
+dataset_properties={
+  'multiclass': False,
+  'target_type': 'classification',
+  'task': 1,
+  'multilabel': False,
+  'sparse': True,
+  'signed': False})), (0.04, SimpleClassificationPipeline({'classifier:passive_aggressive:fit_intercept': 'True', 'classifier:passive_aggressive:loss': 'squared_hinge', 'categorical_encoding:one_hot_encoding:use_minimum_fraction': 'False', 'rescaling:__choice__': 'none', 'classifier:passive_aggressive:C': 1.6100833008493716, 'balancing:strategy': 'none', 'preprocessor:__choice__': 'no_preprocessing', 'categorical_encoding:__choice__': 'one_hot_encoding', 'classifier:passive_aggressive:tol': 0.041995151184164234, 'classifier:__choice__': 'passive_aggressive', 'classifier:passive_aggressive:average': 'False', 'imputation:strategy': 'mean'},
+dataset_properties={
+  'multiclass': False,
+  'target_type': 'classification',
+  'task': 1,
+  'multilabel': False,
+  'sparse': True,
+  'signed': False})), (0.04, SimpleClassificationPipeline({'classifier:passive_aggressive:fit_intercept': 'True', 'classifier:passive_aggressive:loss': 'hinge', 'categorical_encoding:one_hot_encoding:use_minimum_fraction': 'False', 'rescaling:__choice__': 'none', 'classifier:passive_aggressive:C': 5.741307665645392, 'balancing:strategy': 'weighting', 'preprocessor:__choice__': 'select_percentile_classification', 'categorical_encoding:__choice__': 'one_hot_encoding', 'preprocessor:select_percentile_classification:percentile': 50.0, 'classifier:passive_aggressive:tol': 1.3232447497379641e-05, 'classifier:__choice__': 'passive_aggressive', 'classifier:passive_aggressive:average': 'False', 'preprocessor:select_percentile_classification:score_func': 'chi2', 'imputation:strategy': 'median'},
+dataset_properties={
+  'multiclass': False,
+  'target_type': 'classification',
+  'task': 1,
+  'multilabel': False,
+  'sparse': True,
+  'signed': False})), (0.04, SimpleClassificationPipeline({'classifier:passive_aggressive:fit_intercept': 'True', 'classifier:passive_aggressive:loss': 'squared_hinge', 'preprocessor:extra_trees_preproc_for_classification:min_weight_fraction_leaf': 0.0, 'classifier:__choice__': 'passive_aggressive', 'classifier:passive_aggressive:C': 0.00016781524591321165, 'preprocessor:extra_trees_preproc_for_classification:criterion': 'gini', 'categorical_encoding:__choice__': 'one_hot_encoding', 'classifier:passive_aggressive:tol': 1.4434594858403402e-05, 'preprocessor:extra_trees_preproc_for_classification:n_estimators': 100, 'classifier:passive_aggressive:average': 'False', 'preprocessor:extra_trees_preproc_for_classification:min_impurity_decrease': 0.0, 'imputation:strategy': 'most_frequent', 'preprocessor:extra_trees_preproc_for_classification:min_samples_leaf': 1, 'preprocessor:extra_trees_preproc_for_classification:max_features': 0.5, 'categorical_encoding:one_hot_encoding:use_minimum_fraction': 'False', 'rescaling:__choice__': 'none', 'balancing:strategy': 'weighting', 'preprocessor:__choice__': 'extra_trees_preproc_for_classification', 'preprocessor:extra_trees_preproc_for_classification:min_samples_split': 2, 'preprocessor:extra_trees_preproc_for_classification:bootstrap': 'False', 'preprocessor:extra_trees_preproc_for_classification:max_leaf_nodes': 'None', 'preprocessor:extra_trees_preproc_for_classification:max_depth': 'None'},
+dataset_properties={
+  'multiclass': False,
+  'target_type': 'classification',
+  'task': 1,
+  'multilabel': False,
+  'sparse': True,
+  'signed': False})), (0.02, SimpleClassificationPipeline({'categorical_encoding:__choice__': 'one_hot_encoding', 'rescaling:__choice__': 'none', 'classifier:adaboost:max_depth': 6, 'classifier:adaboost:n_estimators': 467, 'classifier:__choice__': 'adaboost', 'classifier:adaboost:algorithm': 'SAMME.R', 'categorical_encoding:one_hot_encoding:use_minimum_fraction': 'False', 'imputation:strategy': 'most_frequent', 'classifier:adaboost:learning_rate': 1.6308355175471712, 'balancing:strategy': 'weighting', 'preprocessor:__choice__': 'no_preprocessing'},
+dataset_properties={
+  'multiclass': False,
+  'target_type': 'classification',
+  'task': 1,
+  'multilabel': False,
+  'sparse': True,
+  'signed': False})), (0.02, SimpleClassificationPipeline({'classifier:passive_aggressive:fit_intercept': 'True', 'classifier:passive_aggressive:loss': 'hinge', 'preprocessor:select_rates:score_func': 'chi2', 'preprocessor:select_rates:mode': 'fpr', 'categorical_encoding:one_hot_encoding:use_minimum_fraction': 'False', 'rescaling:__choice__': 'none', 'classifier:passive_aggressive:C': 5.741307665645392, 'balancing:strategy': 'weighting', 'preprocessor:__choice__': 'select_rates', 'categorical_encoding:__choice__': 'one_hot_encoding', 'classifier:passive_aggressive:tol': 1.3232447497379641e-05, 'classifier:__choice__': 'passive_aggressive', 'classifier:passive_aggressive:average': 'False', 'preprocessor:select_rates:alpha': 0.1, 'imputation:strategy': 'mean'},
+dataset_properties={
+  'multiclass': False,
+  'target_type': 'classification',
+  'task': 1,
+  'multilabel': False,
+  'sparse': True,
+  'signed': False})), (0.02, SimpleClassificationPipeline({'classifier:passive_aggressive:fit_intercept': 'True', 'classifier:passive_aggressive:loss': 'hinge', 'preprocessor:liblinear_svc_preprocessor:loss': 'squared_hinge', 'preprocessor:liblinear_svc_preprocessor:C': 0.4971515945303584, 'preprocessor:liblinear_svc_preprocessor:penalty': 'l1', 'preprocessor:liblinear_svc_preprocessor:multi_class': 'ovr', 'preprocessor:liblinear_svc_preprocessor:dual': 'False', 'preprocessor:liblinear_svc_preprocessor:fit_intercept': 'True', 'categorical_encoding:one_hot_encoding:use_minimum_fraction': 'True', 'rescaling:__choice__': 'none', 'classifier:passive_aggressive:C': 1.0, 'preprocessor:liblinear_svc_preprocessor:intercept_scaling': 1, 'balancing:strategy': 'weighting', 'preprocessor:__choice__': 'liblinear_svc_preprocessor', 'categorical_encoding:one_hot_encoding:minimum_fraction': 0.001856820833094005, 'categorical_encoding:__choice__': 'one_hot_encoding', 'classifier:passive_aggressive:tol': 1.3232447497379641e-05, 'classifier:__choice__': 'passive_aggressive', 'classifier:passive_aggressive:average': 'False', 'preprocessor:liblinear_svc_preprocessor:tol': 1.932660215945159e-05, 'imputation:strategy': 'median'},
+dataset_properties={
+  'multiclass': False,
+  'target_type': 'classification',
+  'task': 1,
+  'multilabel': False,
+  'sparse': True,
+  'signed': False})), (0.02, SimpleClassificationPipeline({'classifier:passive_aggressive:fit_intercept': 'True', 'classifier:passive_aggressive:loss': 'hinge', 'preprocessor:liblinear_svc_preprocessor:loss': 'squared_hinge', 'preprocessor:liblinear_svc_preprocessor:C': 0.4971515945303584, 'preprocessor:liblinear_svc_preprocessor:penalty': 'l1', 'preprocessor:liblinear_svc_preprocessor:multi_class': 'ovr', 'preprocessor:liblinear_svc_preprocessor:dual': 'False', 'preprocessor:liblinear_svc_preprocessor:fit_intercept': 'True', 'categorical_encoding:one_hot_encoding:use_minimum_fraction': 'True', 'rescaling:__choice__': 'none', 'classifier:passive_aggressive:C': 1.0, 'preprocessor:liblinear_svc_preprocessor:intercept_scaling': 1, 'balancing:strategy': 'weighting', 'preprocessor:__choice__': 'liblinear_svc_preprocessor', 'categorical_encoding:one_hot_encoding:minimum_fraction': 0.001856820833094005, 'categorical_encoding:__choice__': 'one_hot_encoding', 'classifier:passive_aggressive:tol': 1.3232447497379641e-05, 'classifier:__choice__': 'passive_aggressive', 'classifier:passive_aggressive:average': 'False', 'preprocessor:liblinear_svc_preprocessor:tol': 0.00010268311046018636, 'imputation:strategy': 'mean'},
+dataset_properties={
+  'multiclass': False,
+  'target_type': 'classification',
+  'task': 1,
+  'multilabel': False,
+  'sparse': True,
+  'signed': False})), (0.02, SimpleClassificationPipeline({'classifier:passive_aggressive:fit_intercept': 'True', 'classifier:passive_aggressive:loss': 'hinge', 'preprocessor:liblinear_svc_preprocessor:loss': 'squared_hinge', 'preprocessor:liblinear_svc_preprocessor:C': 0.49590374754953515, 'preprocessor:liblinear_svc_preprocessor:penalty': 'l1', 'preprocessor:liblinear_svc_preprocessor:multi_class': 'ovr', 'preprocessor:liblinear_svc_preprocessor:dual': 'False', 'preprocessor:liblinear_svc_preprocessor:fit_intercept': 'True', 'categorical_encoding:one_hot_encoding:use_minimum_fraction': 'False', 'rescaling:__choice__': 'none', 'classifier:passive_aggressive:C': 0.8868625112793715, 'preprocessor:liblinear_svc_preprocessor:intercept_scaling': 1, 'balancing:strategy': 'weighting', 'preprocessor:__choice__': 'liblinear_svc_preprocessor', 'categorical_encoding:__choice__': 'one_hot_encoding', 'classifier:passive_aggressive:tol': 1.4400723753483714e-05, 'classifier:__choice__': 'passive_aggressive', 'classifier:passive_aggressive:average': 'False', 'preprocessor:liblinear_svc_preprocessor:tol': 3.25264424936244e-05, 'imputation:strategy': 'median'},
+dataset_properties={
+  'multiclass': False,
+  'target_type': 'classification',
+  'task': 1,
+  'multilabel': False,
+  'sparse': True,
+  'signed': False})), (0.02, SimpleClassificationPipeline({'classifier:liblinear_svc:loss': 'squared_hinge', 'preprocessor:liblinear_svc_preprocessor:loss': 'squared_hinge', 'preprocessor:liblinear_svc_preprocessor:C': 0.4971515945303584, 'preprocessor:liblinear_svc_preprocessor:dual': 'False', 'preprocessor:liblinear_svc_preprocessor:fit_intercept': 'True', 'classifier:liblinear_svc:tol': 0.00010000000000000009, 'classifier:liblinear_svc:penalty': 'l2', 'categorical_encoding:__choice__': 'one_hot_encoding', 'classifier:liblinear_svc:multi_class': 'ovr', 'preprocessor:liblinear_svc_preprocessor:tol': 0.00010268311046018636, 'imputation:strategy': 'median', 'classifier:liblinear_svc:intercept_scaling': 1, 'classifier:liblinear_svc:dual': 'False', 'preprocessor:liblinear_svc_preprocessor:penalty': 'l1', 'preprocessor:liblinear_svc_preprocessor:multi_class': 'ovr', 'preprocessor:liblinear_svc_preprocessor:intercept_scaling': 1, 'categorical_encoding:one_hot_encoding:use_minimum_fraction': 'False', 'rescaling:__choice__': 'none', 'balancing:strategy': 'none', 'preprocessor:__choice__': 'liblinear_svc_preprocessor', 'classifier:liblinear_svc:fit_intercept': 'True', 'classifier:__choice__': 'liblinear_svc', 'classifier:liblinear_svc:C': 1.0},
+dataset_properties={
+  'multiclass': False,
+  'target_type': 'classification',
+  'task': 1,
+  'multilabel': False,
+  'sparse': True,
+  'signed': False})), (0.02, SimpleClassificationPipeline({'classifier:passive_aggressive:fit_intercept': 'True', 'classifier:passive_aggressive:loss': 'hinge', 'categorical_encoding:one_hot_encoding:use_minimum_fraction': 'False', 'rescaling:__choice__': 'none', 'classifier:passive_aggressive:C': 5.741307665645392, 'balancing:strategy': 'weighting', 'preprocessor:__choice__': 'no_preprocessing', 'categorical_encoding:__choice__': 'one_hot_encoding', 'classifier:passive_aggressive:tol': 1.3232447497379641e-05, 'classifier:__choice__': 'passive_aggressive', 'classifier:passive_aggressive:average': 'False', 'imputation:strategy': 'mean'},
+dataset_properties={
+  'multiclass': False,
+  'target_type': 'classification',
+  'task': 1,
+  'multilabel': False,
+  'sparse': True,
+  'signed': False})), (0.02, SimpleClassificationPipeline({'classifier:passive_aggressive:fit_intercept': 'True', 'classifier:passive_aggressive:loss': 'hinge', 'preprocessor:select_rates:score_func': 'chi2', 'preprocessor:select_rates:mode': 'fpr', 'categorical_encoding:one_hot_encoding:use_minimum_fraction': 'False', 'rescaling:__choice__': 'none', 'classifier:passive_aggressive:C': 1.0, 'balancing:strategy': 'weighting', 'preprocessor:__choice__': 'select_rates', 'categorical_encoding:__choice__': 'one_hot_encoding', 'classifier:passive_aggressive:tol': 1.3232447497379641e-05, 'classifier:__choice__': 'passive_aggressive', 'classifier:passive_aggressive:average': 'False', 'preprocessor:select_rates:alpha': 0.1, 'imputation:strategy': 'most_frequent'},
+dataset_properties={
+  'multiclass': False,
+  'target_type': 'classification',
+  'task': 1,
+  'multilabel': False,
+  'sparse': True,
+  'signed': False})), (0.02, SimpleClassificationPipeline({'classifier:liblinear_svc:loss': 'squared_hinge', 'preprocessor:liblinear_svc_preprocessor:loss': 'squared_hinge', 'preprocessor:liblinear_svc_preprocessor:C': 0.4971515945303584, 'preprocessor:liblinear_svc_preprocessor:dual': 'False', 'preprocessor:liblinear_svc_preprocessor:fit_intercept': 'True', 'classifier:liblinear_svc:tol': 0.00010000000000000009, 'classifier:liblinear_svc:penalty': 'l2', 'categorical_encoding:__choice__': 'one_hot_encoding', 'categorical_encoding:one_hot_encoding:minimum_fraction': 0.010000000000000004, 'classifier:liblinear_svc:multi_class': 'ovr', 'preprocessor:liblinear_svc_preprocessor:tol': 0.00010268311046018636, 'imputation:strategy': 'median', 'classifier:liblinear_svc:intercept_scaling': 1, 'classifier:liblinear_svc:dual': 'False', 'preprocessor:liblinear_svc_preprocessor:penalty': 'l1', 'preprocessor:liblinear_svc_preprocessor:multi_class': 'ovr', 'preprocessor:liblinear_svc_preprocessor:intercept_scaling': 1, 'categorical_encoding:one_hot_encoding:use_minimum_fraction': 'True', 'rescaling:__choice__': 'normalize', 'balancing:strategy': 'weighting', 'preprocessor:__choice__': 'liblinear_svc_preprocessor', 'classifier:liblinear_svc:fit_intercept': 'True', 'classifier:__choice__': 'liblinear_svc', 'classifier:liblinear_svc:C': 1.0},
+dataset_properties={
+  'multiclass': False,
+  'target_type': 'classification',
+  'task': 1,
+  'multilabel': False,
+  'sparse': True,
+  'signed': False})), (0.02, SimpleClassificationPipeline({'classifier:passive_aggressive:fit_intercept': 'True', 'classifier:passive_aggressive:loss': 'squared_hinge', 'categorical_encoding:one_hot_encoding:use_minimum_fraction': 'True', 'rescaling:__choice__': 'normalize', 'classifier:passive_aggressive:C': 0.0013048685612526427, 'balancing:strategy': 'weighting', 'preprocessor:__choice__': 'no_preprocessing', 'categorical_encoding:__choice__': 'one_hot_encoding', 'classifier:passive_aggressive:tol': 1.3258146886140332e-05, 'classifier:__choice__': 'passive_aggressive', 'classifier:passive_aggressive:average': 'True', 'categorical_encoding:one_hot_encoding:minimum_fraction': 0.010000000000000004, 'imputation:strategy': 'median'},
+dataset_properties={
+  'multiclass': False,
+  'target_type': 'classification',
+  'task': 1,
+  'multilabel': False,
+  'sparse': True,
+  'signed': False})), (0.02, SimpleClassificationPipeline({'classifier:random_forest:min_samples_leaf': 1, 'classifier:random_forest:bootstrap': 'True', 'classifier:random_forest:n_estimators': 100, 'classifier:random_forest:max_leaf_nodes': 'None', 'classifier:random_forest:criterion': 'gini', 'categorical_encoding:one_hot_encoding:use_minimum_fraction': 'True', 'rescaling:__choice__': 'standardize', 'classifier:random_forest:min_samples_split': 2, 'balancing:strategy': 'none', 'preprocessor:__choice__': 'no_preprocessing', 'categorical_encoding:__choice__': 'one_hot_encoding', 'classifier:random_forest:max_depth': 'None', 'classifier:__choice__': 'random_forest', 'categorical_encoding:one_hot_encoding:minimum_fraction': 0.01, 'classifier:random_forest:min_impurity_decrease': 0.0, 'classifier:random_forest:min_weight_fraction_leaf': 0.0, 'classifier:random_forest:max_features': 0.5, 'imputation:strategy': 'mean'},
+dataset_properties={
+  'multiclass': False,
+  'target_type': 'classification',
+  'task': 1,
+  'multilabel': False,
+  'sparse': True,
+  'signed': False}))]
+/home/indiano/miniconda3/envs/tf/lib/python3.5/site-packages/sklearn/linear_model/stochastic_gradient.py:451: ConvergenceWarning: Maximum number of iteration reached before convergence. Consider increasing max_iter to improve the fit.
+  ConvergenceWarning)
+/home/indiano/miniconda3/envs/tf/lib/python3.5/site-packages/sklearn/linear_model/stochastic_gradient.py:451: ConvergenceWarning: Maximum number of iteration reached before convergence. Consider increasing max_iter to improve the fit.
+  ConvergenceWarning)
+/home/indiano/miniconda3/envs/tf/lib/python3.5/site-packages/sklearn/linear_model/stochastic_gradient.py:451: ConvergenceWarning: Maximum number of iteration reached before convergence. Consider increasing max_iter to improve the fit.
+  ConvergenceWarning)
+/home/indiano/miniconda3/envs/tf/lib/python3.5/site-packages/sklearn/linear_model/stochastic_gradient.py:451: ConvergenceWarning: Maximum number of iteration reached before convergence. Consider increasing max_iter to improve the fit.
+  ConvergenceWarning)
+/home/indiano/miniconda3/envs/tf/lib/python3.5/site-packages/sklearn/linear_model/stochastic_gradient.py:451: ConvergenceWarning: Maximum number of iteration reached before convergence. Consider increasing max_iter to improve the fit.
+  ConvergenceWarning)
+/home/indiano/miniconda3/envs/tf/lib/python3.5/site-packages/sklearn/linear_model/stochastic_gradient.py:451: ConvergenceWarning: Maximum number of iteration reached before convergence. Consider increasing max_iter to improve the fit.
+  ConvergenceWarning)
+/home/indiano/miniconda3/envs/tf/lib/python3.5/site-packages/sklearn/linear_model/stochastic_gradient.py:451: ConvergenceWarning: Maximum number of iteration reached before convergence. Consider increasing max_iter to improve the fit.
+  ConvergenceWarning)
+/home/indiano/miniconda3/envs/tf/lib/python3.5/site-packages/sklearn/linear_model/stochastic_gradient.py:451: ConvergenceWarning: Maximum number of iteration reached before convergence. Consider increasing max_iter to improve the fit.
+  ConvergenceWarning)
+/home/indiano/miniconda3/envs/tf/lib/python3.5/site-packages/sklearn/linear_model/stochastic_gradient.py:451: ConvergenceWarning: Maximum number of iteration reached before convergence. Consider increasing max_iter to improve the fit.
+  ConvergenceWarning)
+/home/indiano/miniconda3/envs/tf/lib/python3.5/site-packages/sklearn/linear_model/stochastic_gradient.py:451: ConvergenceWarning: Maximum number of iteration reached before convergence. Consider increasing max_iter to improve the fit.
+  ConvergenceWarning)
+/home/indiano/miniconda3/envs/tf/lib/python3.5/site-packages/sklearn/linear_model/stochastic_gradient.py:451: ConvergenceWarning: Maximum number of iteration reached before convergence. Consider increasing max_iter to improve the fit.
+  ConvergenceWarning)
+/home/indiano/miniconda3/envs/tf/lib/python3.5/site-packages/sklearn/linear_model/stochastic_gradient.py:451: ConvergenceWarning: Maximum number of iteration reached before convergence. Consider increasing max_iter to improve the fit.
+  ConvergenceWarning)
+AutoSklearnClassifier(delete_output_folder_after_terminate=True,
+           delete_tmp_folder_after_terminate=True,
+           disable_evaluator_output=False, ensemble_nbest=50,
+           ensemble_size=50, exclude_estimators=None,
+           exclude_preprocessors=None, get_smac_object_callback=None,
+           include_estimators=None, include_preprocessors=None,
+           initial_configurations_via_metalearning=25,
+           ml_memory_limit=3072, output_folder=None,
+           per_run_time_limit=360, resampling_strategy='holdout',
+           resampling_strategy_arguments=None, seed=1, shared_mode=False,
+           smac_scenario_args=None, time_left_for_this_task=3600,
+           tmp_folder=None) Classification
+Accuracy: 99.00%
+                precision    recall  f1-score   support
+
+NadaSportswear       0.99      1.00      0.99      3032
+    Sportswear       1.00      0.96      0.98      1053
+
+   avg / total       0.99      0.99      0.99      4085
+
+Saving Confusion Matrices in the ./../../save/auto-sklearn directory
+Saving Confusion Matrices in the ./../../save/auto-sklearn directory
+[0.99, 1.0, 0.99]
+[1.0, 0.96, 0.98]
+Plot Matrix: [[0.99, 1.0, 0.99], [1.0, 0.96, 0.98]]
+Support: [3032, 1053]
+
+Saving Classification Report in the ./../../save/auto-sklearn directory
+AutoSklearnClassifier(delete_output_folder_after_terminate=True,
+           delete_tmp_folder_after_terminate=True,
+           disable_evaluator_output=False, ensemble_nbest=50,
+           ensemble_size=50, exclude_estimators=None,
+           exclude_preprocessors=None, get_smac_object_callback=None,
+           include_estimators=None, include_preprocessors=None,
+           initial_configurations_via_metalearning=25,
+           ml_memory_limit=3072, output_folder=None,
+           per_run_time_limit=360, resampling_strategy='holdout',
+           resampling_strategy_arguments=None, seed=1, shared_mode=False,
+           smac_scenario_args=None, time_left_for_this_task=3600,
+           tmp_folder=None) Classification
+Accuracy: 99.00%
+                precision    recall  f1-score   support
+
+NadaSportswear       0.99      1.00      0.99      3032
+    Sportswear       1.00      0.96      0.98      1053
+
+   avg / total       0.99      0.99      0.99      4085
+
+Saving Confusion Matrices in the ./../../save/auto-sklearn directory
+Saving Confusion Matrices in the ./../../save/auto-sklearn directory
+[0.99, 1.0, 0.99]
+[1.0, 0.96, 0.98]
+Plot Matrix: [[0.99, 1.0, 0.99], [1.0, 0.96, 0.98]]
+Support: [3032, 1053]
+
+Saving Classification Report in the ./../../save/auto-sklearn directory
+
+
+****************** Sampling done. Enjoy Life. :) *******************
+
+Process finished with exit code 0

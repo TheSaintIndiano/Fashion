@@ -1,0 +1,64 @@
+/home/indiano/miniconda3/envs/tf/bin/python /home/indiano/PycharmProjects/SportsWear/auto-tpot_models.py
+*******************
+Train set : 8291
+ Test set : 4085
+*******************
+
+Optimization Progress: 229pipeline [3:50:25, 71.40s/pipeline] Generation 1 - Current best internal CV score: 0.9889033080265472
+
+Best pipeline: LogisticRegression(input_matrix, C=20.0, dual=False, penalty=l1)
+Total training time : 13843.05624113 seconds
+Saving the best model discovered through TPOT.
+Traceback (most recent call last):
+  File "/home/indiano/miniconda3/envs/tf/lib/python3.5/pickle.py", line 911, in save_global
+    obj2, parent = _getattribute(module, name)
+  File "/home/indiano/miniconda3/envs/tf/lib/python3.5/pickle.py", line 265, in _getattribute
+    .format(name, obj))
+AttributeError: Can't get local attribute 'tqdm.status_printer.<locals>.print_status' on <function tqdm.status_printer at 0x7f65894b36a8>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/indiano/PycharmProjects/SportsWear/auto-tpot_models.py", line 97, in <module>
+    joblib.dump(tpot, './checkpoint/tpot/tpot.pickle')
+  File "/home/indiano/miniconda3/envs/tf/lib/python3.5/site-packages/sklearn/externals/joblib/numpy_pickle.py", line 484, in dump
+    NumpyPickler(f, protocol=protocol).dump(value)
+  File "/home/indiano/miniconda3/envs/tf/lib/python3.5/pickle.py", line 408, in dump
+    self.save(obj)
+  File "/home/indiano/miniconda3/envs/tf/lib/python3.5/site-packages/sklearn/externals/joblib/numpy_pickle.py", line 281, in save
+    return Pickler.save(self, obj)
+  File "/home/indiano/miniconda3/envs/tf/lib/python3.5/pickle.py", line 520, in save
+    self.save_reduce(obj=obj, *rv)
+  File "/home/indiano/miniconda3/envs/tf/lib/python3.5/pickle.py", line 627, in save_reduce
+    save(state)
+  File "/home/indiano/miniconda3/envs/tf/lib/python3.5/site-packages/sklearn/externals/joblib/numpy_pickle.py", line 281, in save
+    return Pickler.save(self, obj)
+  File "/home/indiano/miniconda3/envs/tf/lib/python3.5/pickle.py", line 475, in save
+    f(self, obj) # Call unbound method with explicit self
+  File "/home/indiano/miniconda3/envs/tf/lib/python3.5/pickle.py", line 814, in save_dict
+    self._batch_setitems(obj.items())
+  File "/home/indiano/miniconda3/envs/tf/lib/python3.5/pickle.py", line 840, in _batch_setitems
+    save(v)
+  File "/home/indiano/miniconda3/envs/tf/lib/python3.5/site-packages/sklearn/externals/joblib/numpy_pickle.py", line 281, in save
+    return Pickler.save(self, obj)
+  File "/home/indiano/miniconda3/envs/tf/lib/python3.5/pickle.py", line 520, in save
+    self.save_reduce(obj=obj, *rv)
+  File "/home/indiano/miniconda3/envs/tf/lib/python3.5/pickle.py", line 627, in save_reduce
+    save(state)
+  File "/home/indiano/miniconda3/envs/tf/lib/python3.5/site-packages/sklearn/externals/joblib/numpy_pickle.py", line 281, in save
+    return Pickler.save(self, obj)
+  File "/home/indiano/miniconda3/envs/tf/lib/python3.5/pickle.py", line 475, in save
+    f(self, obj) # Call unbound method with explicit self
+  File "/home/indiano/miniconda3/envs/tf/lib/python3.5/pickle.py", line 814, in save_dict
+    self._batch_setitems(obj.items())
+  File "/home/indiano/miniconda3/envs/tf/lib/python3.5/pickle.py", line 840, in _batch_setitems
+    save(v)
+  File "/home/indiano/miniconda3/envs/tf/lib/python3.5/site-packages/sklearn/externals/joblib/numpy_pickle.py", line 281, in save
+    return Pickler.save(self, obj)
+  File "/home/indiano/miniconda3/envs/tf/lib/python3.5/pickle.py", line 475, in save
+    f(self, obj) # Call unbound method with explicit self
+  File "/home/indiano/miniconda3/envs/tf/lib/python3.5/pickle.py", line 915, in save_global
+    (obj, module_name, name))
+_pickle.PicklingError: Can't pickle <function tqdm.status_printer.<locals>.print_status at 0x7f6575d9da60>: it's not found as tqdm._tqdm.tqdm.status_printer.<locals>.print_status
+
+Process finished with exit code 1

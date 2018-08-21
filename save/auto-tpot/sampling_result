@@ -1,0 +1,37 @@
+/home/indiano/miniconda3/envs/tf/bin/python /home/indiano/git/SportsWear/model/auto-tpot/sample.py --root_dir ./ --data_dir ../../data/sportswear/events --hdf_file ../../data/hdf/sportswear --checkpoint_dir ../../checkpoint/auto-tpot --save_dir ../../save/auto-tpot --test_size 33
+*******************
+Train set : 8291
+ Test set : 4085
+*******************
+
+
+
+****************** Auto TPOT Sampling started. *******************
+
+
+Time per prediction : 5.797483481172099e-07
+LogisticRegression(C=20.0, class_weight=None, dual=False, fit_intercept=True,
+          intercept_scaling=1, max_iter=100, multi_class='ovr', n_jobs=1,
+          penalty='l1', random_state=None, solver='liblinear', tol=0.0001,
+          verbose=0, warm_start=False) Classification
+Accuracy: 98.95%
+                precision    recall  f1-score   support
+
+NadaSportswear       0.99      1.00      0.99      3030
+    Sportswear       1.00      0.96      0.98      1055
+
+   avg / total       0.99      0.99      0.99      4085
+
+Saving Confusion Matrices in the ./../../save/auto-tpot directory
+Saving Confusion Matrices in the ./../../save/auto-tpot directory
+[0.99, 1.0, 0.99]
+[1.0, 0.96, 0.98]
+Plot Matrix: [[0.99, 1.0, 0.99], [1.0, 0.96, 0.98]]
+Support: [3030, 1055]
+
+Saving Classification Report in the ./../../save/auto-tpot directory
+
+
+****************** Ensembling done. Enjoy Life. :) *******************
+
+Process finished with exit code 0

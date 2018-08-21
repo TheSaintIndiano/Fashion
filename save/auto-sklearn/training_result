@@ -1,0 +1,596 @@
+/home/indiano/miniconda3/envs/tf/bin/python /home/indiano/git/SportsWear/model/auto-sklearn/run.py --root_dir ./ --data_dir ../../data/sportswear/events --hdf_file ../../data/hdf/sportswear --checkpoint_dir ../../checkpoint/auto-sklearn --save_dir ../../save/auto-sklearn --test_size 33
+*******************
+Train set : 8291
+ Test set : 4085
+*******************
+
+
+
+****************** Auto Sklearn training started. *******************
+
+
+/home/indiano/miniconda3/envs/tf/lib/python3.5/site-packages/autosklearn/evaluation/train_evaluator.py:197: RuntimeWarning: Mean of empty slice
+  Y_train_pred = np.nanmean(Y_train_pred_full, axis=0)
+[WARNING] [2018-08-21 16:58:57,933:EnsembleBuilder(1):2524b9a3f6ad5603c0c09d7310c7a151] No models better than random - using Dummy Classifier!
+[WARNING] [2018-08-21 16:58:57,938:EnsembleBuilder(1):2524b9a3f6ad5603c0c09d7310c7a151] No models better than random - using Dummy Classifier!
+[WARNING] [2018-08-21 16:58:59,940:EnsembleBuilder(1):2524b9a3f6ad5603c0c09d7310c7a151] No models better than random - using Dummy Classifier!
+[WARNING] [2018-08-21 16:59:01,942:EnsembleBuilder(1):2524b9a3f6ad5603c0c09d7310c7a151] No models better than random - using Dummy Classifier!
+[WARNING] [2018-08-21 16:59:03,943:EnsembleBuilder(1):2524b9a3f6ad5603c0c09d7310c7a151] No models better than random - using Dummy Classifier!
+[WARNING] [2018-08-21 16:59:05,945:EnsembleBuilder(1):2524b9a3f6ad5603c0c09d7310c7a151] No models better than random - using Dummy Classifier!
+[WARNING] [2018-08-21 16:59:07,948:EnsembleBuilder(1):2524b9a3f6ad5603c0c09d7310c7a151] No models better than random - using Dummy Classifier!
+[WARNING] [2018-08-21 16:59:09,951:EnsembleBuilder(1):2524b9a3f6ad5603c0c09d7310c7a151] No models better than random - using Dummy Classifier!
+[WARNING] [2018-08-21 16:59:11,952:EnsembleBuilder(1):2524b9a3f6ad5603c0c09d7310c7a151] No models better than random - using Dummy Classifier!
+[WARNING] [2018-08-21 16:59:13,955:EnsembleBuilder(1):2524b9a3f6ad5603c0c09d7310c7a151] No models better than random - using Dummy Classifier!
+[WARNING] [2018-08-21 16:59:15,957:EnsembleBuilder(1):2524b9a3f6ad5603c0c09d7310c7a151] No models better than random - using Dummy Classifier!
+[WARNING] [2018-08-21 16:59:17,960:EnsembleBuilder(1):2524b9a3f6ad5603c0c09d7310c7a151] No models better than random - using Dummy Classifier!
+[WARNING] [2018-08-21 16:59:19,963:EnsembleBuilder(1):2524b9a3f6ad5603c0c09d7310c7a151] No models better than random - using Dummy Classifier!
+/home/indiano/miniconda3/envs/tf/lib/python3.5/site-packages/autosklearn/evaluation/train_evaluator.py:197: RuntimeWarning: Mean of empty slice
+  Y_train_pred = np.nanmean(Y_train_pred_full, axis=0)
+/home/indiano/miniconda3/envs/tf/lib/python3.5/site-packages/autosklearn/evaluation/train_evaluator.py:197: RuntimeWarning: Mean of empty slice
+  Y_train_pred = np.nanmean(Y_train_pred_full, axis=0)
+/home/indiano/miniconda3/envs/tf/lib/python3.5/site-packages/autosklearn/evaluation/train_evaluator.py:197: RuntimeWarning: Mean of empty slice
+  Y_train_pred = np.nanmean(Y_train_pred_full, axis=0)
+/home/indiano/miniconda3/envs/tf/lib/python3.5/site-packages/autosklearn/evaluation/train_evaluator.py:197: RuntimeWarning: Mean of empty slice
+  Y_train_pred = np.nanmean(Y_train_pred_full, axis=0)
+/home/indiano/miniconda3/envs/tf/lib/python3.5/site-packages/autosklearn/evaluation/train_evaluator.py:197: RuntimeWarning: Mean of empty slice
+  Y_train_pred = np.nanmean(Y_train_pred_full, axis=0)
+/home/indiano/miniconda3/envs/tf/lib/python3.5/site-packages/autosklearn/evaluation/train_evaluator.py:197: RuntimeWarning: Mean of empty slice
+  Y_train_pred = np.nanmean(Y_train_pred_full, axis=0)
+/home/indiano/miniconda3/envs/tf/lib/python3.5/site-packages/autosklearn/evaluation/train_evaluator.py:197: RuntimeWarning: Mean of empty slice
+  Y_train_pred = np.nanmean(Y_train_pred_full, axis=0)
+/home/indiano/miniconda3/envs/tf/lib/python3.5/site-packages/autosklearn/evaluation/train_evaluator.py:197: RuntimeWarning: Mean of empty slice
+  Y_train_pred = np.nanmean(Y_train_pred_full, axis=0)
+/home/indiano/miniconda3/envs/tf/lib/python3.5/site-packages/autosklearn/evaluation/train_evaluator.py:197: RuntimeWarning: Mean of empty slice
+  Y_train_pred = np.nanmean(Y_train_pred_full, axis=0)
+/home/indiano/miniconda3/envs/tf/lib/python3.5/site-packages/autosklearn/evaluation/train_evaluator.py:197: RuntimeWarning: Mean of empty slice
+  Y_train_pred = np.nanmean(Y_train_pred_full, axis=0)
+/home/indiano/miniconda3/envs/tf/lib/python3.5/site-packages/autosklearn/evaluation/train_evaluator.py:197: RuntimeWarning: Mean of empty slice
+  Y_train_pred = np.nanmean(Y_train_pred_full, axis=0)
+/home/indiano/miniconda3/envs/tf/lib/python3.5/site-packages/autosklearn/evaluation/train_evaluator.py:197: RuntimeWarning: Mean of empty slice
+  Y_train_pred = np.nanmean(Y_train_pred_full, axis=0)
+/home/indiano/miniconda3/envs/tf/lib/python3.5/site-packages/autosklearn/evaluation/train_evaluator.py:197: RuntimeWarning: Mean of empty slice
+  Y_train_pred = np.nanmean(Y_train_pred_full, axis=0)
+/home/indiano/miniconda3/envs/tf/lib/python3.5/site-packages/autosklearn/evaluation/train_evaluator.py:197: RuntimeWarning: Mean of empty slice
+  Y_train_pred = np.nanmean(Y_train_pred_full, axis=0)
+/home/indiano/miniconda3/envs/tf/lib/python3.5/site-packages/autosklearn/evaluation/train_evaluator.py:197: RuntimeWarning: Mean of empty slice
+  Y_train_pred = np.nanmean(Y_train_pred_full, axis=0)
+/home/indiano/miniconda3/envs/tf/lib/python3.5/site-packages/autosklearn/evaluation/train_evaluator.py:197: RuntimeWarning: Mean of empty slice
+  Y_train_pred = np.nanmean(Y_train_pred_full, axis=0)
+/home/indiano/miniconda3/envs/tf/lib/python3.5/site-packages/autosklearn/evaluation/train_evaluator.py:197: RuntimeWarning: Mean of empty slice
+  Y_train_pred = np.nanmean(Y_train_pred_full, axis=0)
+/home/indiano/miniconda3/envs/tf/lib/python3.5/site-packages/autosklearn/evaluation/train_evaluator.py:197: RuntimeWarning: Mean of empty slice
+  Y_train_pred = np.nanmean(Y_train_pred_full, axis=0)
+/home/indiano/miniconda3/envs/tf/lib/python3.5/site-packages/autosklearn/evaluation/train_evaluator.py:197: RuntimeWarning: Mean of empty slice
+  Y_train_pred = np.nanmean(Y_train_pred_full, axis=0)
+/home/indiano/miniconda3/envs/tf/lib/python3.5/site-packages/autosklearn/evaluation/train_evaluator.py:197: RuntimeWarning: Mean of empty slice
+  Y_train_pred = np.nanmean(Y_train_pred_full, axis=0)
+/home/indiano/miniconda3/envs/tf/lib/python3.5/site-packages/autosklearn/evaluation/train_evaluator.py:197: RuntimeWarning: Mean of empty slice
+  Y_train_pred = np.nanmean(Y_train_pred_full, axis=0)
+/home/indiano/miniconda3/envs/tf/lib/python3.5/site-packages/autosklearn/evaluation/train_evaluator.py:197: RuntimeWarning: Mean of empty slice
+  Y_train_pred = np.nanmean(Y_train_pred_full, axis=0)
+/home/indiano/miniconda3/envs/tf/lib/python3.5/site-packages/autosklearn/evaluation/train_evaluator.py:197: RuntimeWarning: Mean of empty slice
+  Y_train_pred = np.nanmean(Y_train_pred_full, axis=0)
+/home/indiano/miniconda3/envs/tf/lib/python3.5/site-packages/autosklearn/evaluation/train_evaluator.py:197: RuntimeWarning: Mean of empty slice
+  Y_train_pred = np.nanmean(Y_train_pred_full, axis=0)
+/home/indiano/miniconda3/envs/tf/lib/python3.5/site-packages/autosklearn/evaluation/train_evaluator.py:197: RuntimeWarning: Mean of empty slice
+  Y_train_pred = np.nanmean(Y_train_pred_full, axis=0)
+/home/indiano/miniconda3/envs/tf/lib/python3.5/site-packages/autosklearn/evaluation/train_evaluator.py:197: RuntimeWarning: Mean of empty slice
+  Y_train_pred = np.nanmean(Y_train_pred_full, axis=0)
+/home/indiano/miniconda3/envs/tf/lib/python3.5/site-packages/autosklearn/evaluation/train_evaluator.py:197: RuntimeWarning: Mean of empty slice
+  Y_train_pred = np.nanmean(Y_train_pred_full, axis=0)
+/home/indiano/miniconda3/envs/tf/lib/python3.5/site-packages/autosklearn/evaluation/train_evaluator.py:197: RuntimeWarning: Mean of empty slice
+  Y_train_pred = np.nanmean(Y_train_pred_full, axis=0)
+/home/indiano/miniconda3/envs/tf/lib/python3.5/site-packages/autosklearn/evaluation/train_evaluator.py:197: RuntimeWarning: Mean of empty slice
+  Y_train_pred = np.nanmean(Y_train_pred_full, axis=0)
+/home/indiano/miniconda3/envs/tf/lib/python3.5/site-packages/autosklearn/evaluation/train_evaluator.py:197: RuntimeWarning: Mean of empty slice
+  Y_train_pred = np.nanmean(Y_train_pred_full, axis=0)
+/home/indiano/miniconda3/envs/tf/lib/python3.5/site-packages/autosklearn/evaluation/train_evaluator.py:197: RuntimeWarning: Mean of empty slice
+  Y_train_pred = np.nanmean(Y_train_pred_full, axis=0)
+/home/indiano/miniconda3/envs/tf/lib/python3.5/site-packages/autosklearn/evaluation/train_evaluator.py:197: RuntimeWarning: Mean of empty slice
+  Y_train_pred = np.nanmean(Y_train_pred_full, axis=0)
+/home/indiano/miniconda3/envs/tf/lib/python3.5/site-packages/autosklearn/evaluation/train_evaluator.py:197: RuntimeWarning: Mean of empty slice
+  Y_train_pred = np.nanmean(Y_train_pred_full, axis=0)
+/home/indiano/miniconda3/envs/tf/lib/python3.5/site-packages/autosklearn/evaluation/train_evaluator.py:197: RuntimeWarning: Mean of empty slice
+  Y_train_pred = np.nanmean(Y_train_pred_full, axis=0)
+/home/indiano/miniconda3/envs/tf/lib/python3.5/site-packages/autosklearn/evaluation/train_evaluator.py:197: RuntimeWarning: Mean of empty slice
+  Y_train_pred = np.nanmean(Y_train_pred_full, axis=0)
+/home/indiano/miniconda3/envs/tf/lib/python3.5/site-packages/autosklearn/evaluation/train_evaluator.py:197: RuntimeWarning: Mean of empty slice
+  Y_train_pred = np.nanmean(Y_train_pred_full, axis=0)
+/home/indiano/miniconda3/envs/tf/lib/python3.5/site-packages/autosklearn/evaluation/train_evaluator.py:197: RuntimeWarning: Mean of empty slice
+  Y_train_pred = np.nanmean(Y_train_pred_full, axis=0)
+/home/indiano/miniconda3/envs/tf/lib/python3.5/site-packages/autosklearn/evaluation/train_evaluator.py:197: RuntimeWarning: Mean of empty slice
+  Y_train_pred = np.nanmean(Y_train_pred_full, axis=0)
+/home/indiano/miniconda3/envs/tf/lib/python3.5/site-packages/autosklearn/evaluation/train_evaluator.py:197: RuntimeWarning: Mean of empty slice
+  Y_train_pred = np.nanmean(Y_train_pred_full, axis=0)
+/home/indiano/miniconda3/envs/tf/lib/python3.5/site-packages/autosklearn/evaluation/train_evaluator.py:197: RuntimeWarning: Mean of empty slice
+  Y_train_pred = np.nanmean(Y_train_pred_full, axis=0)
+/home/indiano/miniconda3/envs/tf/lib/python3.5/site-packages/autosklearn/evaluation/train_evaluator.py:197: RuntimeWarning: Mean of empty slice
+  Y_train_pred = np.nanmean(Y_train_pred_full, axis=0)
+/home/indiano/miniconda3/envs/tf/lib/python3.5/site-packages/autosklearn/evaluation/train_evaluator.py:197: RuntimeWarning: Mean of empty slice
+  Y_train_pred = np.nanmean(Y_train_pred_full, axis=0)
+/home/indiano/miniconda3/envs/tf/lib/python3.5/site-packages/autosklearn/evaluation/train_evaluator.py:197: RuntimeWarning: Mean of empty slice
+  Y_train_pred = np.nanmean(Y_train_pred_full, axis=0)
+/home/indiano/miniconda3/envs/tf/lib/python3.5/site-packages/autosklearn/evaluation/train_evaluator.py:197: RuntimeWarning: Mean of empty slice
+  Y_train_pred = np.nanmean(Y_train_pred_full, axis=0)
+/home/indiano/miniconda3/envs/tf/lib/python3.5/site-packages/autosklearn/evaluation/train_evaluator.py:197: RuntimeWarning: Mean of empty slice
+  Y_train_pred = np.nanmean(Y_train_pred_full, axis=0)
+/home/indiano/miniconda3/envs/tf/lib/python3.5/site-packages/autosklearn/evaluation/train_evaluator.py:197: RuntimeWarning: Mean of empty slice
+  Y_train_pred = np.nanmean(Y_train_pred_full, axis=0)
+/home/indiano/miniconda3/envs/tf/lib/python3.5/site-packages/autosklearn/evaluation/train_evaluator.py:197: RuntimeWarning: Mean of empty slice
+  Y_train_pred = np.nanmean(Y_train_pred_full, axis=0)
+/home/indiano/miniconda3/envs/tf/lib/python3.5/site-packages/autosklearn/evaluation/train_evaluator.py:197: RuntimeWarning: Mean of empty slice
+  Y_train_pred = np.nanmean(Y_train_pred_full, axis=0)
+/home/indiano/miniconda3/envs/tf/lib/python3.5/site-packages/autosklearn/evaluation/train_evaluator.py:197: RuntimeWarning: Mean of empty slice
+  Y_train_pred = np.nanmean(Y_train_pred_full, axis=0)
+/home/indiano/miniconda3/envs/tf/lib/python3.5/site-packages/autosklearn/evaluation/train_evaluator.py:197: RuntimeWarning: Mean of empty slice
+  Y_train_pred = np.nanmean(Y_train_pred_full, axis=0)
+/home/indiano/miniconda3/envs/tf/lib/python3.5/site-packages/autosklearn/evaluation/train_evaluator.py:197: RuntimeWarning: Mean of empty slice
+  Y_train_pred = np.nanmean(Y_train_pred_full, axis=0)
+/home/indiano/miniconda3/envs/tf/lib/python3.5/site-packages/autosklearn/evaluation/train_evaluator.py:197: RuntimeWarning: Mean of empty slice
+  Y_train_pred = np.nanmean(Y_train_pred_full, axis=0)
+/home/indiano/miniconda3/envs/tf/lib/python3.5/site-packages/autosklearn/evaluation/train_evaluator.py:197: RuntimeWarning: Mean of empty slice
+  Y_train_pred = np.nanmean(Y_train_pred_full, axis=0)
+/home/indiano/miniconda3/envs/tf/lib/python3.5/site-packages/autosklearn/evaluation/train_evaluator.py:197: RuntimeWarning: Mean of empty slice
+  Y_train_pred = np.nanmean(Y_train_pred_full, axis=0)
+/home/indiano/miniconda3/envs/tf/lib/python3.5/site-packages/autosklearn/evaluation/train_evaluator.py:197: RuntimeWarning: Mean of empty slice
+  Y_train_pred = np.nanmean(Y_train_pred_full, axis=0)
+/home/indiano/miniconda3/envs/tf/lib/python3.5/site-packages/autosklearn/evaluation/train_evaluator.py:197: RuntimeWarning: Mean of empty slice
+  Y_train_pred = np.nanmean(Y_train_pred_full, axis=0)
+/home/indiano/miniconda3/envs/tf/lib/python3.5/site-packages/autosklearn/evaluation/train_evaluator.py:197: RuntimeWarning: Mean of empty slice
+  Y_train_pred = np.nanmean(Y_train_pred_full, axis=0)
+/home/indiano/miniconda3/envs/tf/lib/python3.5/site-packages/autosklearn/evaluation/train_evaluator.py:197: RuntimeWarning: Mean of empty slice
+  Y_train_pred = np.nanmean(Y_train_pred_full, axis=0)
+/home/indiano/miniconda3/envs/tf/lib/python3.5/site-packages/autosklearn/evaluation/train_evaluator.py:197: RuntimeWarning: Mean of empty slice
+  Y_train_pred = np.nanmean(Y_train_pred_full, axis=0)
+/home/indiano/miniconda3/envs/tf/lib/python3.5/site-packages/autosklearn/evaluation/train_evaluator.py:197: RuntimeWarning: Mean of empty slice
+  Y_train_pred = np.nanmean(Y_train_pred_full, axis=0)
+/home/indiano/miniconda3/envs/tf/lib/python3.5/site-packages/autosklearn/evaluation/train_evaluator.py:197: RuntimeWarning: Mean of empty slice
+  Y_train_pred = np.nanmean(Y_train_pred_full, axis=0)
+/home/indiano/miniconda3/envs/tf/lib/python3.5/site-packages/autosklearn/evaluation/train_evaluator.py:197: RuntimeWarning: Mean of empty slice
+  Y_train_pred = np.nanmean(Y_train_pred_full, axis=0)
+/home/indiano/miniconda3/envs/tf/lib/python3.5/site-packages/autosklearn/evaluation/train_evaluator.py:197: RuntimeWarning: Mean of empty slice
+  Y_train_pred = np.nanmean(Y_train_pred_full, axis=0)
+/home/indiano/miniconda3/envs/tf/lib/python3.5/site-packages/autosklearn/evaluation/train_evaluator.py:197: RuntimeWarning: Mean of empty slice
+  Y_train_pred = np.nanmean(Y_train_pred_full, axis=0)
+/home/indiano/miniconda3/envs/tf/lib/python3.5/site-packages/autosklearn/evaluation/train_evaluator.py:197: RuntimeWarning: Mean of empty slice
+  Y_train_pred = np.nanmean(Y_train_pred_full, axis=0)
+/home/indiano/miniconda3/envs/tf/lib/python3.5/site-packages/autosklearn/evaluation/train_evaluator.py:197: RuntimeWarning: Mean of empty slice
+  Y_train_pred = np.nanmean(Y_train_pred_full, axis=0)
+/home/indiano/miniconda3/envs/tf/lib/python3.5/site-packages/autosklearn/evaluation/train_evaluator.py:197: RuntimeWarning: Mean of empty slice
+  Y_train_pred = np.nanmean(Y_train_pred_full, axis=0)
+/home/indiano/miniconda3/envs/tf/lib/python3.5/site-packages/autosklearn/evaluation/train_evaluator.py:197: RuntimeWarning: Mean of empty slice
+  Y_train_pred = np.nanmean(Y_train_pred_full, axis=0)
+/home/indiano/miniconda3/envs/tf/lib/python3.5/site-packages/autosklearn/evaluation/train_evaluator.py:197: RuntimeWarning: Mean of empty slice
+  Y_train_pred = np.nanmean(Y_train_pred_full, axis=0)
+/home/indiano/miniconda3/envs/tf/lib/python3.5/site-packages/autosklearn/evaluation/train_evaluator.py:197: RuntimeWarning: Mean of empty slice
+  Y_train_pred = np.nanmean(Y_train_pred_full, axis=0)
+/home/indiano/miniconda3/envs/tf/lib/python3.5/site-packages/autosklearn/evaluation/train_evaluator.py:197: RuntimeWarning: Mean of empty slice
+  Y_train_pred = np.nanmean(Y_train_pred_full, axis=0)
+/home/indiano/miniconda3/envs/tf/lib/python3.5/site-packages/autosklearn/evaluation/train_evaluator.py:197: RuntimeWarning: Mean of empty slice
+  Y_train_pred = np.nanmean(Y_train_pred_full, axis=0)
+/home/indiano/miniconda3/envs/tf/lib/python3.5/site-packages/autosklearn/evaluation/train_evaluator.py:197: RuntimeWarning: Mean of empty slice
+  Y_train_pred = np.nanmean(Y_train_pred_full, axis=0)
+/home/indiano/miniconda3/envs/tf/lib/python3.5/site-packages/autosklearn/evaluation/train_evaluator.py:197: RuntimeWarning: Mean of empty slice
+  Y_train_pred = np.nanmean(Y_train_pred_full, axis=0)
+/home/indiano/miniconda3/envs/tf/lib/python3.5/site-packages/autosklearn/evaluation/train_evaluator.py:197: RuntimeWarning: Mean of empty slice
+  Y_train_pred = np.nanmean(Y_train_pred_full, axis=0)
+/home/indiano/miniconda3/envs/tf/lib/python3.5/site-packages/autosklearn/evaluation/train_evaluator.py:197: RuntimeWarning: Mean of empty slice
+  Y_train_pred = np.nanmean(Y_train_pred_full, axis=0)
+/home/indiano/miniconda3/envs/tf/lib/python3.5/site-packages/autosklearn/evaluation/train_evaluator.py:197: RuntimeWarning: Mean of empty slice
+  Y_train_pred = np.nanmean(Y_train_pred_full, axis=0)
+/home/indiano/miniconda3/envs/tf/lib/python3.5/site-packages/autosklearn/evaluation/train_evaluator.py:197: RuntimeWarning: Mean of empty slice
+  Y_train_pred = np.nanmean(Y_train_pred_full, axis=0)
+/home/indiano/miniconda3/envs/tf/lib/python3.5/site-packages/autosklearn/evaluation/train_evaluator.py:197: RuntimeWarning: Mean of empty slice
+  Y_train_pred = np.nanmean(Y_train_pred_full, axis=0)
+/home/indiano/miniconda3/envs/tf/lib/python3.5/site-packages/autosklearn/evaluation/train_evaluator.py:197: RuntimeWarning: Mean of empty slice
+  Y_train_pred = np.nanmean(Y_train_pred_full, axis=0)
+[17:11:19] src/gbm/gbtree.cc:480: drop 0 trees, weight = 1
+[17:11:19] src/gbm/gbtree.cc:480: drop 0 trees, weight = 1
+[17:11:19] src/gbm/gbtree.cc:480: drop 0 trees, weight = 1
+[17:11:19] src/gbm/gbtree.cc:480: drop 0 trees, weight = 1
+[17:11:19] src/gbm/gbtree.cc:480: drop 0 trees, weight = 1
+[17:11:19] src/gbm/gbtree.cc:480: drop 0 trees, weight = 1
+[17:11:19] src/gbm/gbtree.cc:480: drop 0 trees, weight = 1
+[17:11:19] src/gbm/gbtree.cc:480: drop 0 trees, weight = 1
+[17:11:19] src/gbm/gbtree.cc:480: drop 0 trees, weight = 1
+[17:11:19] src/gbm/gbtree.cc:480: drop 0 trees, weight = 1
+[17:11:19] src/gbm/gbtree.cc:480: drop 0 trees, weight = 1
+[17:11:19] src/gbm/gbtree.cc:480: drop 0 trees, weight = 1
+[17:11:19] src/gbm/gbtree.cc:480: drop 0 trees, weight = 1
+[17:11:19] src/gbm/gbtree.cc:480: drop 0 trees, weight = 1
+[17:11:19] src/gbm/gbtree.cc:480: drop 0 trees, weight = 1
+[17:11:19] src/gbm/gbtree.cc:480: drop 0 trees, weight = 1
+[17:11:19] src/gbm/gbtree.cc:480: drop 0 trees, weight = 1
+[17:11:19] src/gbm/gbtree.cc:480: drop 0 trees, weight = 1
+[17:11:19] src/gbm/gbtree.cc:480: drop 0 trees, weight = 1
+[17:11:19] src/gbm/gbtree.cc:480: drop 0 trees, weight = 1
+[17:11:19] src/gbm/gbtree.cc:480: drop 0 trees, weight = 1
+[17:11:19] src/gbm/gbtree.cc:480: drop 0 trees, weight = 1
+/home/indiano/miniconda3/envs/tf/lib/python3.5/site-packages/autosklearn/evaluation/train_evaluator.py:197: RuntimeWarning: Mean of empty slice
+  Y_train_pred = np.nanmean(Y_train_pred_full, axis=0)
+/home/indiano/miniconda3/envs/tf/lib/python3.5/site-packages/autosklearn/evaluation/train_evaluator.py:197: RuntimeWarning: Mean of empty slice
+  Y_train_pred = np.nanmean(Y_train_pred_full, axis=0)
+/home/indiano/miniconda3/envs/tf/lib/python3.5/site-packages/autosklearn/evaluation/train_evaluator.py:197: RuntimeWarning: Mean of empty slice
+  Y_train_pred = np.nanmean(Y_train_pred_full, axis=0)
+/home/indiano/miniconda3/envs/tf/lib/python3.5/site-packages/autosklearn/evaluation/train_evaluator.py:197: RuntimeWarning: Mean of empty slice
+  Y_train_pred = np.nanmean(Y_train_pred_full, axis=0)
+/home/indiano/miniconda3/envs/tf/lib/python3.5/site-packages/autosklearn/evaluation/train_evaluator.py:197: RuntimeWarning: Mean of empty slice
+  Y_train_pred = np.nanmean(Y_train_pred_full, axis=0)
+/home/indiano/miniconda3/envs/tf/lib/python3.5/site-packages/autosklearn/evaluation/train_evaluator.py:197: RuntimeWarning: Mean of empty slice
+  Y_train_pred = np.nanmean(Y_train_pred_full, axis=0)
+/home/indiano/miniconda3/envs/tf/lib/python3.5/site-packages/autosklearn/evaluation/train_evaluator.py:197: RuntimeWarning: Mean of empty slice
+  Y_train_pred = np.nanmean(Y_train_pred_full, axis=0)
+/home/indiano/miniconda3/envs/tf/lib/python3.5/site-packages/autosklearn/evaluation/train_evaluator.py:197: RuntimeWarning: Mean of empty slice
+  Y_train_pred = np.nanmean(Y_train_pred_full, axis=0)
+/home/indiano/miniconda3/envs/tf/lib/python3.5/site-packages/autosklearn/evaluation/train_evaluator.py:197: RuntimeWarning: Mean of empty slice
+  Y_train_pred = np.nanmean(Y_train_pred_full, axis=0)
+/home/indiano/miniconda3/envs/tf/lib/python3.5/site-packages/autosklearn/evaluation/train_evaluator.py:197: RuntimeWarning: Mean of empty slice
+  Y_train_pred = np.nanmean(Y_train_pred_full, axis=0)
+/home/indiano/miniconda3/envs/tf/lib/python3.5/site-packages/autosklearn/evaluation/train_evaluator.py:197: RuntimeWarning: Mean of empty slice
+  Y_train_pred = np.nanmean(Y_train_pred_full, axis=0)
+/home/indiano/miniconda3/envs/tf/lib/python3.5/site-packages/autosklearn/evaluation/train_evaluator.py:197: RuntimeWarning: Mean of empty slice
+  Y_train_pred = np.nanmean(Y_train_pred_full, axis=0)
+/home/indiano/miniconda3/envs/tf/lib/python3.5/site-packages/autosklearn/evaluation/train_evaluator.py:197: RuntimeWarning: Mean of empty slice
+  Y_train_pred = np.nanmean(Y_train_pred_full, axis=0)
+/home/indiano/miniconda3/envs/tf/lib/python3.5/site-packages/autosklearn/evaluation/train_evaluator.py:197: RuntimeWarning: Mean of empty slice
+  Y_train_pred = np.nanmean(Y_train_pred_full, axis=0)
+/home/indiano/miniconda3/envs/tf/lib/python3.5/site-packages/autosklearn/evaluation/train_evaluator.py:197: RuntimeWarning: Mean of empty slice
+  Y_train_pred = np.nanmean(Y_train_pred_full, axis=0)
+/home/indiano/miniconda3/envs/tf/lib/python3.5/site-packages/autosklearn/evaluation/train_evaluator.py:197: RuntimeWarning: Mean of empty slice
+  Y_train_pred = np.nanmean(Y_train_pred_full, axis=0)
+/home/indiano/miniconda3/envs/tf/lib/python3.5/site-packages/autosklearn/evaluation/train_evaluator.py:197: RuntimeWarning: Mean of empty slice
+  Y_train_pred = np.nanmean(Y_train_pred_full, axis=0)
+/home/indiano/miniconda3/envs/tf/lib/python3.5/site-packages/autosklearn/evaluation/train_evaluator.py:197: RuntimeWarning: Mean of empty slice
+  Y_train_pred = np.nanmean(Y_train_pred_full, axis=0)
+/home/indiano/miniconda3/envs/tf/lib/python3.5/site-packages/autosklearn/evaluation/train_evaluator.py:197: RuntimeWarning: Mean of empty slice
+  Y_train_pred = np.nanmean(Y_train_pred_full, axis=0)
+/home/indiano/miniconda3/envs/tf/lib/python3.5/site-packages/autosklearn/evaluation/train_evaluator.py:197: RuntimeWarning: Mean of empty slice
+  Y_train_pred = np.nanmean(Y_train_pred_full, axis=0)
+/home/indiano/miniconda3/envs/tf/lib/python3.5/site-packages/autosklearn/evaluation/train_evaluator.py:197: RuntimeWarning: Mean of empty slice
+  Y_train_pred = np.nanmean(Y_train_pred_full, axis=0)
+/home/indiano/miniconda3/envs/tf/lib/python3.5/site-packages/autosklearn/evaluation/train_evaluator.py:197: RuntimeWarning: Mean of empty slice
+  Y_train_pred = np.nanmean(Y_train_pred_full, axis=0)
+/home/indiano/miniconda3/envs/tf/lib/python3.5/site-packages/autosklearn/evaluation/train_evaluator.py:197: RuntimeWarning: Mean of empty slice
+  Y_train_pred = np.nanmean(Y_train_pred_full, axis=0)
+/home/indiano/miniconda3/envs/tf/lib/python3.5/site-packages/autosklearn/evaluation/train_evaluator.py:197: RuntimeWarning: Mean of empty slice
+  Y_train_pred = np.nanmean(Y_train_pred_full, axis=0)
+/home/indiano/miniconda3/envs/tf/lib/python3.5/site-packages/autosklearn/evaluation/train_evaluator.py:197: RuntimeWarning: Mean of empty slice
+  Y_train_pred = np.nanmean(Y_train_pred_full, axis=0)
+/home/indiano/miniconda3/envs/tf/lib/python3.5/site-packages/autosklearn/evaluation/train_evaluator.py:197: RuntimeWarning: Mean of empty slice
+  Y_train_pred = np.nanmean(Y_train_pred_full, axis=0)
+/home/indiano/miniconda3/envs/tf/lib/python3.5/site-packages/autosklearn/evaluation/train_evaluator.py:197: RuntimeWarning: Mean of empty slice
+  Y_train_pred = np.nanmean(Y_train_pred_full, axis=0)
+/home/indiano/miniconda3/envs/tf/lib/python3.5/site-packages/autosklearn/evaluation/train_evaluator.py:197: RuntimeWarning: Mean of empty slice
+  Y_train_pred = np.nanmean(Y_train_pred_full, axis=0)
+/home/indiano/miniconda3/envs/tf/lib/python3.5/site-packages/autosklearn/evaluation/train_evaluator.py:197: RuntimeWarning: Mean of empty slice
+  Y_train_pred = np.nanmean(Y_train_pred_full, axis=0)
+/home/indiano/miniconda3/envs/tf/lib/python3.5/site-packages/autosklearn/evaluation/train_evaluator.py:197: RuntimeWarning: Mean of empty slice
+  Y_train_pred = np.nanmean(Y_train_pred_full, axis=0)
+/home/indiano/miniconda3/envs/tf/lib/python3.5/site-packages/autosklearn/evaluation/train_evaluator.py:197: RuntimeWarning: Mean of empty slice
+  Y_train_pred = np.nanmean(Y_train_pred_full, axis=0)
+/home/indiano/miniconda3/envs/tf/lib/python3.5/site-packages/autosklearn/evaluation/train_evaluator.py:197: RuntimeWarning: Mean of empty slice
+  Y_train_pred = np.nanmean(Y_train_pred_full, axis=0)
+/home/indiano/miniconda3/envs/tf/lib/python3.5/site-packages/autosklearn/evaluation/train_evaluator.py:197: RuntimeWarning: Mean of empty slice
+  Y_train_pred = np.nanmean(Y_train_pred_full, axis=0)
+/home/indiano/miniconda3/envs/tf/lib/python3.5/site-packages/autosklearn/evaluation/train_evaluator.py:197: RuntimeWarning: Mean of empty slice
+  Y_train_pred = np.nanmean(Y_train_pred_full, axis=0)
+/home/indiano/miniconda3/envs/tf/lib/python3.5/site-packages/autosklearn/evaluation/train_evaluator.py:197: RuntimeWarning: Mean of empty slice
+  Y_train_pred = np.nanmean(Y_train_pred_full, axis=0)
+/home/indiano/miniconda3/envs/tf/lib/python3.5/site-packages/autosklearn/evaluation/train_evaluator.py:197: RuntimeWarning: Mean of empty slice
+  Y_train_pred = np.nanmean(Y_train_pred_full, axis=0)
+/home/indiano/miniconda3/envs/tf/lib/python3.5/site-packages/autosklearn/evaluation/train_evaluator.py:197: RuntimeWarning: Mean of empty slice
+  Y_train_pred = np.nanmean(Y_train_pred_full, axis=0)
+/home/indiano/miniconda3/envs/tf/lib/python3.5/site-packages/autosklearn/evaluation/train_evaluator.py:197: RuntimeWarning: Mean of empty slice
+  Y_train_pred = np.nanmean(Y_train_pred_full, axis=0)
+/home/indiano/miniconda3/envs/tf/lib/python3.5/site-packages/autosklearn/evaluation/train_evaluator.py:197: RuntimeWarning: Mean of empty slice
+  Y_train_pred = np.nanmean(Y_train_pred_full, axis=0)
+/home/indiano/miniconda3/envs/tf/lib/python3.5/site-packages/autosklearn/evaluation/train_evaluator.py:197: RuntimeWarning: Mean of empty slice
+  Y_train_pred = np.nanmean(Y_train_pred_full, axis=0)
+[17:29:29] src/gbm/gbtree.cc:480: drop 1 trees, weight = 1
+[17:29:29] src/gbm/gbtree.cc:480: drop 1 trees, weight = 1
+[17:29:29] src/gbm/gbtree.cc:480: drop 1 trees, weight = 1
+[17:29:29] src/gbm/gbtree.cc:480: drop 1 trees, weight = 1
+[17:29:29] src/gbm/gbtree.cc:480: drop 1 trees, weight = 1
+[17:29:29] src/gbm/gbtree.cc:480: drop 1 trees, weight = 1
+[17:29:29] src/gbm/gbtree.cc:480: drop 1 trees, weight = 1
+[17:29:29] src/gbm/gbtree.cc:480: drop 1 trees, weight = 1
+/home/indiano/miniconda3/envs/tf/lib/python3.5/site-packages/autosklearn/evaluation/train_evaluator.py:197: RuntimeWarning: Mean of empty slice
+  Y_train_pred = np.nanmean(Y_train_pred_full, axis=0)
+/home/indiano/miniconda3/envs/tf/lib/python3.5/site-packages/autosklearn/evaluation/train_evaluator.py:197: RuntimeWarning: Mean of empty slice
+  Y_train_pred = np.nanmean(Y_train_pred_full, axis=0)
+/home/indiano/miniconda3/envs/tf/lib/python3.5/site-packages/autosklearn/evaluation/train_evaluator.py:197: RuntimeWarning: Mean of empty slice
+  Y_train_pred = np.nanmean(Y_train_pred_full, axis=0)
+/home/indiano/miniconda3/envs/tf/lib/python3.5/site-packages/autosklearn/evaluation/train_evaluator.py:197: RuntimeWarning: Mean of empty slice
+  Y_train_pred = np.nanmean(Y_train_pred_full, axis=0)
+/home/indiano/miniconda3/envs/tf/lib/python3.5/site-packages/autosklearn/evaluation/train_evaluator.py:197: RuntimeWarning: Mean of empty slice
+  Y_train_pred = np.nanmean(Y_train_pred_full, axis=0)
+/home/indiano/miniconda3/envs/tf/lib/python3.5/site-packages/autosklearn/evaluation/train_evaluator.py:197: RuntimeWarning: Mean of empty slice
+  Y_train_pred = np.nanmean(Y_train_pred_full, axis=0)
+/home/indiano/miniconda3/envs/tf/lib/python3.5/site-packages/autosklearn/evaluation/train_evaluator.py:197: RuntimeWarning: Mean of empty slice
+  Y_train_pred = np.nanmean(Y_train_pred_full, axis=0)
+/home/indiano/miniconda3/envs/tf/lib/python3.5/site-packages/autosklearn/evaluation/train_evaluator.py:197: RuntimeWarning: Mean of empty slice
+  Y_train_pred = np.nanmean(Y_train_pred_full, axis=0)
+/home/indiano/miniconda3/envs/tf/lib/python3.5/site-packages/autosklearn/evaluation/train_evaluator.py:197: RuntimeWarning: Mean of empty slice
+  Y_train_pred = np.nanmean(Y_train_pred_full, axis=0)
+/home/indiano/miniconda3/envs/tf/lib/python3.5/site-packages/autosklearn/evaluation/train_evaluator.py:197: RuntimeWarning: Mean of empty slice
+  Y_train_pred = np.nanmean(Y_train_pred_full, axis=0)
+/home/indiano/miniconda3/envs/tf/lib/python3.5/site-packages/autosklearn/evaluation/train_evaluator.py:197: RuntimeWarning: Mean of empty slice
+  Y_train_pred = np.nanmean(Y_train_pred_full, axis=0)
+/home/indiano/miniconda3/envs/tf/lib/python3.5/site-packages/autosklearn/evaluation/train_evaluator.py:197: RuntimeWarning: Mean of empty slice
+  Y_train_pred = np.nanmean(Y_train_pred_full, axis=0)
+/home/indiano/miniconda3/envs/tf/lib/python3.5/site-packages/autosklearn/evaluation/train_evaluator.py:197: RuntimeWarning: Mean of empty slice
+  Y_train_pred = np.nanmean(Y_train_pred_full, axis=0)
+/home/indiano/miniconda3/envs/tf/lib/python3.5/site-packages/autosklearn/evaluation/train_evaluator.py:197: RuntimeWarning: Mean of empty slice
+  Y_train_pred = np.nanmean(Y_train_pred_full, axis=0)
+/home/indiano/miniconda3/envs/tf/lib/python3.5/site-packages/autosklearn/evaluation/train_evaluator.py:197: RuntimeWarning: Mean of empty slice
+  Y_train_pred = np.nanmean(Y_train_pred_full, axis=0)
+/home/indiano/miniconda3/envs/tf/lib/python3.5/site-packages/autosklearn/evaluation/train_evaluator.py:197: RuntimeWarning: Mean of empty slice
+  Y_train_pred = np.nanmean(Y_train_pred_full, axis=0)
+/home/indiano/miniconda3/envs/tf/lib/python3.5/site-packages/autosklearn/evaluation/train_evaluator.py:197: RuntimeWarning: Mean of empty slice
+  Y_train_pred = np.nanmean(Y_train_pred_full, axis=0)
+/home/indiano/miniconda3/envs/tf/lib/python3.5/site-packages/autosklearn/evaluation/train_evaluator.py:197: RuntimeWarning: Mean of empty slice
+  Y_train_pred = np.nanmean(Y_train_pred_full, axis=0)
+/home/indiano/miniconda3/envs/tf/lib/python3.5/site-packages/autosklearn/evaluation/train_evaluator.py:197: RuntimeWarning: Mean of empty slice
+  Y_train_pred = np.nanmean(Y_train_pred_full, axis=0)
+/home/indiano/miniconda3/envs/tf/lib/python3.5/site-packages/autosklearn/evaluation/train_evaluator.py:197: RuntimeWarning: Mean of empty slice
+  Y_train_pred = np.nanmean(Y_train_pred_full, axis=0)
+/home/indiano/miniconda3/envs/tf/lib/python3.5/site-packages/autosklearn/evaluation/train_evaluator.py:197: RuntimeWarning: Mean of empty slice
+  Y_train_pred = np.nanmean(Y_train_pred_full, axis=0)
+/home/indiano/miniconda3/envs/tf/lib/python3.5/site-packages/autosklearn/evaluation/train_evaluator.py:197: RuntimeWarning: Mean of empty slice
+  Y_train_pred = np.nanmean(Y_train_pred_full, axis=0)
+/home/indiano/miniconda3/envs/tf/lib/python3.5/site-packages/autosklearn/evaluation/train_evaluator.py:197: RuntimeWarning: Mean of empty slice
+  Y_train_pred = np.nanmean(Y_train_pred_full, axis=0)
+/home/indiano/miniconda3/envs/tf/lib/python3.5/site-packages/autosklearn/evaluation/train_evaluator.py:197: RuntimeWarning: Mean of empty slice
+  Y_train_pred = np.nanmean(Y_train_pred_full, axis=0)
+/home/indiano/miniconda3/envs/tf/lib/python3.5/site-packages/autosklearn/evaluation/train_evaluator.py:197: RuntimeWarning: Mean of empty slice
+  Y_train_pred = np.nanmean(Y_train_pred_full, axis=0)
+/home/indiano/miniconda3/envs/tf/lib/python3.5/site-packages/autosklearn/evaluation/train_evaluator.py:197: RuntimeWarning: Mean of empty slice
+  Y_train_pred = np.nanmean(Y_train_pred_full, axis=0)
+/home/indiano/miniconda3/envs/tf/lib/python3.5/site-packages/autosklearn/evaluation/train_evaluator.py:197: RuntimeWarning: Mean of empty slice
+  Y_train_pred = np.nanmean(Y_train_pred_full, axis=0)
+/home/indiano/miniconda3/envs/tf/lib/python3.5/site-packages/autosklearn/evaluation/train_evaluator.py:197: RuntimeWarning: Mean of empty slice
+  Y_train_pred = np.nanmean(Y_train_pred_full, axis=0)
+/home/indiano/miniconda3/envs/tf/lib/python3.5/site-packages/autosklearn/evaluation/train_evaluator.py:197: RuntimeWarning: Mean of empty slice
+  Y_train_pred = np.nanmean(Y_train_pred_full, axis=0)
+/home/indiano/miniconda3/envs/tf/lib/python3.5/site-packages/autosklearn/evaluation/train_evaluator.py:197: RuntimeWarning: Mean of empty slice
+  Y_train_pred = np.nanmean(Y_train_pred_full, axis=0)
+/home/indiano/miniconda3/envs/tf/lib/python3.5/site-packages/autosklearn/evaluation/train_evaluator.py:197: RuntimeWarning: Mean of empty slice
+  Y_train_pred = np.nanmean(Y_train_pred_full, axis=0)
+/home/indiano/miniconda3/envs/tf/lib/python3.5/site-packages/autosklearn/evaluation/train_evaluator.py:197: RuntimeWarning: Mean of empty slice
+  Y_train_pred = np.nanmean(Y_train_pred_full, axis=0)
+/home/indiano/miniconda3/envs/tf/lib/python3.5/site-packages/autosklearn/evaluation/train_evaluator.py:197: RuntimeWarning: Mean of empty slice
+  Y_train_pred = np.nanmean(Y_train_pred_full, axis=0)
+/home/indiano/miniconda3/envs/tf/lib/python3.5/site-packages/autosklearn/evaluation/train_evaluator.py:197: RuntimeWarning: Mean of empty slice
+  Y_train_pred = np.nanmean(Y_train_pred_full, axis=0)
+/home/indiano/miniconda3/envs/tf/lib/python3.5/site-packages/autosklearn/evaluation/train_evaluator.py:197: RuntimeWarning: Mean of empty slice
+  Y_train_pred = np.nanmean(Y_train_pred_full, axis=0)
+/home/indiano/miniconda3/envs/tf/lib/python3.5/site-packages/autosklearn/evaluation/train_evaluator.py:197: RuntimeWarning: Mean of empty slice
+  Y_train_pred = np.nanmean(Y_train_pred_full, axis=0)
+/home/indiano/miniconda3/envs/tf/lib/python3.5/site-packages/autosklearn/evaluation/train_evaluator.py:197: RuntimeWarning: Mean of empty slice
+  Y_train_pred = np.nanmean(Y_train_pred_full, axis=0)
+/home/indiano/miniconda3/envs/tf/lib/python3.5/site-packages/autosklearn/evaluation/train_evaluator.py:197: RuntimeWarning: Mean of empty slice
+  Y_train_pred = np.nanmean(Y_train_pred_full, axis=0)
+/home/indiano/miniconda3/envs/tf/lib/python3.5/site-packages/autosklearn/evaluation/train_evaluator.py:197: RuntimeWarning: Mean of empty slice
+  Y_train_pred = np.nanmean(Y_train_pred_full, axis=0)
+/home/indiano/miniconda3/envs/tf/lib/python3.5/site-packages/autosklearn/evaluation/train_evaluator.py:197: RuntimeWarning: Mean of empty slice
+  Y_train_pred = np.nanmean(Y_train_pred_full, axis=0)
+/home/indiano/miniconda3/envs/tf/lib/python3.5/site-packages/autosklearn/evaluation/train_evaluator.py:197: RuntimeWarning: Mean of empty slice
+  Y_train_pred = np.nanmean(Y_train_pred_full, axis=0)
+/home/indiano/miniconda3/envs/tf/lib/python3.5/site-packages/autosklearn/evaluation/train_evaluator.py:197: RuntimeWarning: Mean of empty slice
+  Y_train_pred = np.nanmean(Y_train_pred_full, axis=0)
+/home/indiano/miniconda3/envs/tf/lib/python3.5/site-packages/autosklearn/evaluation/train_evaluator.py:197: RuntimeWarning: Mean of empty slice
+  Y_train_pred = np.nanmean(Y_train_pred_full, axis=0)
+/home/indiano/miniconda3/envs/tf/lib/python3.5/site-packages/autosklearn/evaluation/train_evaluator.py:197: RuntimeWarning: Mean of empty slice
+  Y_train_pred = np.nanmean(Y_train_pred_full, axis=0)
+/home/indiano/miniconda3/envs/tf/lib/python3.5/site-packages/autosklearn/evaluation/train_evaluator.py:197: RuntimeWarning: Mean of empty slice
+  Y_train_pred = np.nanmean(Y_train_pred_full, axis=0)
+/home/indiano/miniconda3/envs/tf/lib/python3.5/site-packages/autosklearn/evaluation/train_evaluator.py:197: RuntimeWarning: Mean of empty slice
+  Y_train_pred = np.nanmean(Y_train_pred_full, axis=0)
+/home/indiano/miniconda3/envs/tf/lib/python3.5/site-packages/autosklearn/evaluation/train_evaluator.py:197: RuntimeWarning: Mean of empty slice
+  Y_train_pred = np.nanmean(Y_train_pred_full, axis=0)
+/home/indiano/miniconda3/envs/tf/lib/python3.5/site-packages/autosklearn/evaluation/train_evaluator.py:197: RuntimeWarning: Mean of empty slice
+  Y_train_pred = np.nanmean(Y_train_pred_full, axis=0)
+The best models discovered through Auto-Sklearn is [(0.200000, SimpleClassificationPipeline({'classifier:adaboost:max_depth': 9, 'classifier:adaboost:algorithm': 'SAMME', 'preprocessor:select_percentile_classification:score_func': 'chi2', 'rescaling:__choice__': 'standardize', 'preprocessor:select_percentile_classification:percentile': 71.09953199485247, 'classifier:adaboost:n_estimators': 360, 'preprocessor:__choice__': 'select_percentile_classification', 'classifier:__choice__': 'adaboost', 'classifier:adaboost:learning_rate': 0.05930770715655241, 'categorical_encoding:__choice__': 'no_encoding', 'imputation:strategy': 'median', 'balancing:strategy': 'none'},
+dataset_properties={
+  'signed': False,
+  'multilabel': False,
+  'multiclass': False,
+  'task': 1,
+  'sparse': True,
+  'target_type': 'classification'})),
+(0.140000, SimpleClassificationPipeline({'classifier:adaboost:max_depth': 1, 'preprocessor:extra_trees_preproc_for_classification:min_impurity_decrease': 0.0, 'classifier:adaboost:algorithm': 'SAMME.R', 'rescaling:__choice__': 'none', 'preprocessor:extra_trees_preproc_for_classification:min_samples_split': 3, 'classifier:adaboost:n_estimators': 165, 'preprocessor:extra_trees_preproc_for_classification:criterion': 'entropy', 'preprocessor:__choice__': 'extra_trees_preproc_for_classification', 'classifier:__choice__': 'adaboost', 'preprocessor:extra_trees_preproc_for_classification:max_features': 0.969183019327874, 'preprocessor:extra_trees_preproc_for_classification:max_depth': 'None', 'classifier:adaboost:learning_rate': 1.5978035267028572, 'preprocessor:extra_trees_preproc_for_classification:min_samples_leaf': 2, 'categorical_encoding:__choice__': 'no_encoding', 'preprocessor:extra_trees_preproc_for_classification:max_leaf_nodes': 'None', 'preprocessor:extra_trees_preproc_for_classification:n_estimators': 100, 'imputation:strategy': 'mean', 'preprocessor:extra_trees_preproc_for_classification:min_weight_fraction_leaf': 0.0, 'preprocessor:extra_trees_preproc_for_classification:bootstrap': 'False', 'balancing:strategy': 'weighting'},
+dataset_properties={
+  'signed': False,
+  'multilabel': False,
+  'multiclass': False,
+  'task': 1,
+  'sparse': True,
+  'target_type': 'classification'})),
+(0.080000, SimpleClassificationPipeline({'rescaling:__choice__': 'normalize', 'classifier:passive_aggressive:fit_intercept': 'True', 'preprocessor:__choice__': 'no_preprocessing', 'classifier:__choice__': 'passive_aggressive', 'classifier:passive_aggressive:loss': 'hinge', 'classifier:passive_aggressive:tol': 0.03418861497297095, 'classifier:passive_aggressive:C': 3.666889040142229, 'categorical_encoding:one_hot_encoding:use_minimum_fraction': 'False', 'categorical_encoding:__choice__': 'one_hot_encoding', 'classifier:passive_aggressive:average': 'True', 'imputation:strategy': 'most_frequent', 'balancing:strategy': 'weighting'},
+dataset_properties={
+  'signed': False,
+  'multilabel': False,
+  'multiclass': False,
+  'task': 1,
+  'sparse': True,
+  'target_type': 'classification'})),
+(0.060000, SimpleClassificationPipeline({'rescaling:__choice__': 'normalize', 'classifier:libsvm_svc:kernel': 'rbf', 'imputation:strategy': 'mean', 'preprocessor:__choice__': 'no_preprocessing', 'classifier:__choice__': 'libsvm_svc', 'classifier:libsvm_svc:max_iter': -1, 'categorical_encoding:one_hot_encoding:use_minimum_fraction': 'True', 'categorical_encoding:__choice__': 'one_hot_encoding', 'classifier:libsvm_svc:C': 1255.9137433589424, 'classifier:libsvm_svc:shrinking': 'True', 'categorical_encoding:one_hot_encoding:minimum_fraction': 0.004980497345831963, 'classifier:libsvm_svc:gamma': 0.08351549479967445, 'classifier:libsvm_svc:tol': 0.00017919875199222518, 'balancing:strategy': 'weighting'},
+dataset_properties={
+  'signed': False,
+  'multilabel': False,
+  'multiclass': False,
+  'task': 1,
+  'sparse': True,
+  'target_type': 'classification'})),
+(0.060000, SimpleClassificationPipeline({'classifier:adaboost:max_depth': 6, 'classifier:adaboost:algorithm': 'SAMME.R', 'classifier:adaboost:learning_rate': 1.6308355175471712, 'categorical_encoding:one_hot_encoding:use_minimum_fraction': 'False', 'rescaling:__choice__': 'none', 'categorical_encoding:__choice__': 'one_hot_encoding', 'classifier:adaboost:n_estimators': 467, 'imputation:strategy': 'most_frequent', 'preprocessor:__choice__': 'no_preprocessing', 'classifier:__choice__': 'adaboost', 'balancing:strategy': 'weighting'},
+dataset_properties={
+  'signed': False,
+  'multilabel': False,
+  'multiclass': False,
+  'task': 1,
+  'sparse': True,
+  'target_type': 'classification'})),
+(0.060000, SimpleClassificationPipeline({'rescaling:__choice__': 'normalize', 'classifier:passive_aggressive:fit_intercept': 'True', 'preprocessor:__choice__': 'no_preprocessing', 'classifier:__choice__': 'passive_aggressive', 'classifier:passive_aggressive:loss': 'hinge', 'classifier:passive_aggressive:tol': 0.00011210050114975925, 'classifier:passive_aggressive:C': 2.8304277117218604, 'categorical_encoding:one_hot_encoding:use_minimum_fraction': 'True', 'categorical_encoding:__choice__': 'one_hot_encoding', 'classifier:passive_aggressive:average': 'False', 'imputation:strategy': 'median', 'categorical_encoding:one_hot_encoding:minimum_fraction': 0.00016956224553346964, 'balancing:strategy': 'weighting'},
+dataset_properties={
+  'signed': False,
+  'multilabel': False,
+  'multiclass': False,
+  'task': 1,
+  'sparse': True,
+  'target_type': 'classification'})),
+(0.060000, SimpleClassificationPipeline({'rescaling:__choice__': 'normalize', 'classifier:passive_aggressive:fit_intercept': 'True', 'preprocessor:__choice__': 'no_preprocessing', 'classifier:__choice__': 'passive_aggressive', 'classifier:passive_aggressive:loss': 'hinge', 'classifier:passive_aggressive:tol': 0.00011210050114975925, 'classifier:passive_aggressive:C': 2.8304277117218604, 'categorical_encoding:one_hot_encoding:use_minimum_fraction': 'True', 'categorical_encoding:__choice__': 'one_hot_encoding', 'classifier:passive_aggressive:average': 'False', 'imputation:strategy': 'median', 'categorical_encoding:one_hot_encoding:minimum_fraction': 0.010000000000000004, 'balancing:strategy': 'weighting'},
+dataset_properties={
+  'signed': False,
+  'multilabel': False,
+  'multiclass': False,
+  'task': 1,
+  'sparse': True,
+  'target_type': 'classification'})),
+(0.040000, SimpleClassificationPipeline({'rescaling:__choice__': 'normalize', 'classifier:passive_aggressive:fit_intercept': 'True', 'preprocessor:__choice__': 'no_preprocessing', 'classifier:__choice__': 'passive_aggressive', 'classifier:passive_aggressive:loss': 'hinge', 'classifier:passive_aggressive:tol': 0.03418861497297095, 'classifier:passive_aggressive:C': 3.666889040142229, 'categorical_encoding:one_hot_encoding:use_minimum_fraction': 'False', 'categorical_encoding:__choice__': 'one_hot_encoding', 'classifier:passive_aggressive:average': 'False', 'imputation:strategy': 'median', 'balancing:strategy': 'weighting'},
+dataset_properties={
+  'signed': False,
+  'multilabel': False,
+  'multiclass': False,
+  'task': 1,
+  'sparse': True,
+  'target_type': 'classification'})),
+(0.040000, SimpleClassificationPipeline({'preprocessor:liblinear_svc_preprocessor:tol': 8.100976888521034e-05, 'rescaling:__choice__': 'standardize', 'categorical_encoding:one_hot_encoding:minimum_fraction': 0.0005956375850057246, 'preprocessor:liblinear_svc_preprocessor:penalty': 'l1', 'classifier:passive_aggressive:fit_intercept': 'True', 'preprocessor:liblinear_svc_preprocessor:dual': 'False', 'preprocessor:__choice__': 'liblinear_svc_preprocessor', 'classifier:__choice__': 'passive_aggressive', 'preprocessor:liblinear_svc_preprocessor:intercept_scaling': 1, 'preprocessor:liblinear_svc_preprocessor:multi_class': 'ovr', 'classifier:passive_aggressive:loss': 'squared_hinge', 'classifier:passive_aggressive:tol': 0.04118586324839415, 'classifier:passive_aggressive:C': 0.00018885946264152352, 'categorical_encoding:one_hot_encoding:use_minimum_fraction': 'True', 'categorical_encoding:__choice__': 'one_hot_encoding', 'preprocessor:liblinear_svc_preprocessor:loss': 'squared_hinge', 'classifier:passive_aggressive:average': 'True', 'imputation:strategy': 'median', 'preprocessor:liblinear_svc_preprocessor:C': 2.0576208299090486, 'preprocessor:liblinear_svc_preprocessor:fit_intercept': 'True', 'balancing:strategy': 'none'},
+dataset_properties={
+  'signed': False,
+  'multilabel': False,
+  'multiclass': False,
+  'task': 1,
+  'sparse': True,
+  'target_type': 'classification'})),
+(0.040000, SimpleClassificationPipeline({'classifier:extra_trees:n_estimators': 100, 'classifier:extra_trees:min_samples_split': 19, 'classifier:extra_trees:min_impurity_decrease': 0.0, 'rescaling:__choice__': 'standardize', 'preprocessor:__choice__': 'no_preprocessing', 'classifier:extra_trees:bootstrap': 'True', 'classifier:extra_trees:criterion': 'entropy', 'classifier:extra_trees:max_leaf_nodes': 'None', 'classifier:__choice__': 'extra_trees', 'classifier:extra_trees:max_depth': 'None', 'classifier:extra_trees:min_weight_fraction_leaf': 0.0, 'categorical_encoding:one_hot_encoding:use_minimum_fraction': 'True', 'categorical_encoding:__choice__': 'one_hot_encoding', 'classifier:extra_trees:max_features': 0.6194008886143237, 'categorical_encoding:one_hot_encoding:minimum_fraction': 0.018967770480388637, 'imputation:strategy': 'most_frequent', 'classifier:extra_trees:min_samples_leaf': 4, 'balancing:strategy': 'none'},
+dataset_properties={
+  'signed': False,
+  'multilabel': False,
+  'multiclass': False,
+  'task': 1,
+  'sparse': True,
+  'target_type': 'classification'})),
+(0.020000, SimpleClassificationPipeline({'classifier:decision_tree:max_features': 1.0, 'classifier:decision_tree:min_samples_split': 20, 'rescaling:__choice__': 'normalize', 'preprocessor:__choice__': 'no_preprocessing', 'classifier:decision_tree:min_samples_leaf': 5, 'classifier:__choice__': 'decision_tree', 'balancing:strategy': 'weighting', 'classifier:decision_tree:min_weight_fraction_leaf': 0.0, 'categorical_encoding:one_hot_encoding:use_minimum_fraction': 'True', 'categorical_encoding:__choice__': 'one_hot_encoding', 'classifier:decision_tree:min_impurity_decrease': 0.0, 'categorical_encoding:one_hot_encoding:minimum_fraction': 0.007425487173513189, 'classifier:decision_tree:max_leaf_nodes': 'None', 'imputation:strategy': 'mean', 'classifier:decision_tree:max_depth': 1.7663148986321937, 'classifier:decision_tree:criterion': 'gini'},
+dataset_properties={
+  'signed': False,
+  'multilabel': False,
+  'multiclass': False,
+  'task': 1,
+  'sparse': True,
+  'target_type': 'classification'})),
+(0.020000, SimpleClassificationPipeline({'rescaling:__choice__': 'normalize', 'classifier:passive_aggressive:fit_intercept': 'True', 'preprocessor:__choice__': 'no_preprocessing', 'classifier:__choice__': 'passive_aggressive', 'classifier:passive_aggressive:loss': 'hinge', 'classifier:passive_aggressive:tol': 0.00020800732384245485, 'classifier:passive_aggressive:C': 3.666889040142229, 'categorical_encoding:one_hot_encoding:use_minimum_fraction': 'True', 'categorical_encoding:__choice__': 'one_hot_encoding', 'classifier:passive_aggressive:average': 'False', 'imputation:strategy': 'median', 'categorical_encoding:one_hot_encoding:minimum_fraction': 0.010000000000000004, 'balancing:strategy': 'weighting'},
+dataset_properties={
+  'signed': False,
+  'multilabel': False,
+  'multiclass': False,
+  'task': 1,
+  'sparse': True,
+  'target_type': 'classification'})),
+(0.020000, SimpleClassificationPipeline({'classifier:adaboost:max_depth': 7, 'classifier:adaboost:algorithm': 'SAMME.R', 'rescaling:__choice__': 'none', 'classifier:adaboost:n_estimators': 265, 'preprocessor:__choice__': 'no_preprocessing', 'classifier:__choice__': 'adaboost', 'classifier:adaboost:learning_rate': 1.661768404515822, 'categorical_encoding:one_hot_encoding:use_minimum_fraction': 'True', 'categorical_encoding:__choice__': 'one_hot_encoding', 'categorical_encoding:one_hot_encoding:minimum_fraction': 0.0008749549827830997, 'imputation:strategy': 'mean', 'balancing:strategy': 'weighting'},
+dataset_properties={
+  'signed': False,
+  'multilabel': False,
+  'multiclass': False,
+  'task': 1,
+  'sparse': True,
+  'target_type': 'classification'})),
+(0.020000, SimpleClassificationPipeline({'classifier:passive_aggressive:loss': 'hinge', 'classifier:passive_aggressive:tol': 1.526237193293535e-05, 'classifier:passive_aggressive:C': 0.0009430161605251125, 'rescaling:__choice__': 'normalize', 'categorical_encoding:__choice__': 'no_encoding', 'imputation:strategy': 'median', 'classifier:passive_aggressive:average': 'False', 'classifier:passive_aggressive:fit_intercept': 'True', 'preprocessor:__choice__': 'no_preprocessing', 'classifier:__choice__': 'passive_aggressive', 'balancing:strategy': 'weighting'},
+dataset_properties={
+  'signed': False,
+  'multilabel': False,
+  'multiclass': False,
+  'task': 1,
+  'sparse': True,
+  'target_type': 'classification'})),
+(0.020000, SimpleClassificationPipeline({'classifier:adaboost:max_depth': 2, 'classifier:adaboost:algorithm': 'SAMME.R', 'classifier:adaboost:learning_rate': 0.47770518010305413, 'rescaling:__choice__': 'normalize', 'categorical_encoding:__choice__': 'no_encoding', 'classifier:adaboost:n_estimators': 171, 'imputation:strategy': 'median', 'preprocessor:__choice__': 'no_preprocessing', 'classifier:__choice__': 'adaboost', 'balancing:strategy': 'weighting'},
+dataset_properties={
+  'signed': False,
+  'multilabel': False,
+  'multiclass': False,
+  'task': 1,
+  'sparse': True,
+  'target_type': 'classification'})),
+(0.020000, SimpleClassificationPipeline({'classifier:random_forest:n_estimators': 100, 'classifier:random_forest:max_features': 0.5, 'classifier:random_forest:min_weight_fraction_leaf': 0.0, 'rescaling:__choice__': 'standardize', 'classifier:random_forest:max_leaf_nodes': 'None', 'classifier:random_forest:criterion': 'gini', 'classifier:random_forest:min_samples_leaf': 1, 'classifier:random_forest:min_samples_split': 2, 'preprocessor:__choice__': 'no_preprocessing', 'classifier:__choice__': 'random_forest', 'classifier:random_forest:max_depth': 'None', 'categorical_encoding:one_hot_encoding:use_minimum_fraction': 'True', 'categorical_encoding:__choice__': 'one_hot_encoding', 'categorical_encoding:one_hot_encoding:minimum_fraction': 0.01, 'balancing:strategy': 'none', 'imputation:strategy': 'mean', 'classifier:random_forest:min_impurity_decrease': 0.0, 'classifier:random_forest:bootstrap': 'True'},
+dataset_properties={
+  'signed': False,
+  'multilabel': False,
+  'multiclass': False,
+  'task': 1,
+  'sparse': True,
+  'target_type': 'classification'})),
+(0.020000, SimpleClassificationPipeline({'classifier:extra_trees:n_estimators': 100, 'classifier:extra_trees:min_samples_split': 2, 'classifier:extra_trees:min_impurity_decrease': 0.0, 'rescaling:__choice__': 'normalize', 'preprocessor:select_percentile_classification:score_func': 'chi2', 'preprocessor:select_percentile_classification:percentile': 50.0, 'preprocessor:__choice__': 'select_percentile_classification', 'classifier:extra_trees:bootstrap': 'False', 'classifier:extra_trees:criterion': 'gini', 'classifier:extra_trees:max_leaf_nodes': 'None', 'classifier:__choice__': 'extra_trees', 'classifier:extra_trees:max_depth': 'None', 'classifier:extra_trees:min_weight_fraction_leaf': 0.0, 'categorical_encoding:one_hot_encoding:use_minimum_fraction': 'True', 'categorical_encoding:__choice__': 'one_hot_encoding', 'classifier:extra_trees:max_features': 0.5, 'categorical_encoding:one_hot_encoding:minimum_fraction': 0.0035046117358943723, 'imputation:strategy': 'median', 'classifier:extra_trees:min_samples_leaf': 1, 'balancing:strategy': 'weighting'},
+dataset_properties={
+  'signed': False,
+  'multilabel': False,
+  'multiclass': False,
+  'task': 1,
+  'sparse': True,
+  'target_type': 'classification'})),
+(0.020000, SimpleClassificationPipeline({'classifier:extra_trees:n_estimators': 100, 'preprocessor:extra_trees_preproc_for_classification:min_impurity_decrease': 0.0, 'classifier:extra_trees:min_samples_split': 20, 'classifier:extra_trees:min_impurity_decrease': 0.0, 'rescaling:__choice__': 'normalize', 'classifier:__choice__': 'extra_trees', 'preprocessor:extra_trees_preproc_for_classification:max_features': 0.5372214289842748, 'preprocessor:extra_trees_preproc_for_classification:max_depth': 'None', 'classifier:extra_trees:max_depth': 'None', 'preprocessor:extra_trees_preproc_for_classification:criterion': 'entropy', 'classifier:extra_trees:max_leaf_nodes': 'None', 'classifier:extra_trees:max_features': 0.8991310269187478, 'categorical_encoding:one_hot_encoding:minimum_fraction': 0.3822985151932851, 'preprocessor:__choice__': 'extra_trees_preproc_for_classification', 'preprocessor:extra_trees_preproc_for_classification:min_samples_split': 15, 'preprocessor:extra_trees_preproc_for_classification:min_samples_leaf': 17, 'imputation:strategy': 'most_frequent', 'classifier:extra_trees:bootstrap': 'False', 'classifier:extra_trees:criterion': 'entropy', 'classifier:extra_trees:min_weight_fraction_leaf': 0.0, 'classifier:extra_trees:min_samples_leaf': 14, 'categorical_encoding:one_hot_encoding:use_minimum_fraction': 'True', 'categorical_encoding:__choice__': 'one_hot_encoding', 'preprocessor:extra_trees_preproc_for_classification:max_leaf_nodes': 'None', 'preprocessor:extra_trees_preproc_for_classification:n_estimators': 100, 'preprocessor:extra_trees_preproc_for_classification:min_weight_fraction_leaf': 0.0, 'preprocessor:extra_trees_preproc_for_classification:bootstrap': 'True', 'balancing:strategy': 'weighting'},
+dataset_properties={
+  'signed': False,
+  'multilabel': False,
+  'multiclass': False,
+  'task': 1,
+  'sparse': True,
+  'target_type': 'classification'})),
+(0.020000, SimpleClassificationPipeline({'classifier:random_forest:n_estimators': 100, 'classifier:random_forest:max_features': 0.8828485897137093, 'preprocessor:select_percentile_classification:score_func': 'chi2', 'classifier:random_forest:min_weight_fraction_leaf': 0.0, 'rescaling:__choice__': 'normalize', 'classifier:random_forest:max_leaf_nodes': 'None', 'classifier:random_forest:criterion': 'gini', 'classifier:random_forest:min_samples_leaf': 13, 'classifier:random_forest:min_samples_split': 10, 'preprocessor:__choice__': 'select_percentile_classification', 'classifier:__choice__': 'random_forest', 'preprocessor:select_percentile_classification:percentile': 23.934597738868295, 'classifier:random_forest:max_depth': 'None', 'categorical_encoding:__choice__': 'no_encoding', 'balancing:strategy': 'weighting', 'imputation:strategy': 'most_frequent', 'classifier:random_forest:min_impurity_decrease': 0.0, 'classifier:random_forest:bootstrap': 'True'},
+dataset_properties={
+  'signed': False,
+  'multilabel': False,
+  'multiclass': False,
+  'task': 1,
+  'sparse': True,
+  'target_type': 'classification'})),
+(0.020000, SimpleClassificationPipeline({'preprocessor:kernel_pca:n_components': 365, 'rescaling:__choice__': 'standardize', 'preprocessor:kernel_pca:kernel': 'sigmoid', 'classifier:passive_aggressive:fit_intercept': 'True', 'preprocessor:__choice__': 'kernel_pca', 'classifier:__choice__': 'passive_aggressive', 'classifier:passive_aggressive:loss': 'hinge', 'preprocessor:kernel_pca:coef0': 0.671317866084437, 'classifier:passive_aggressive:tol': 2.4270613052906833e-05, 'classifier:passive_aggressive:C': 0.09597536824331138, 'categorical_encoding:one_hot_encoding:use_minimum_fraction': 'False', 'categorical_encoding:__choice__': 'one_hot_encoding', 'classifier:passive_aggressive:average': 'False', 'imputation:strategy': 'mean', 'balancing:strategy': 'weighting'},
+dataset_properties={
+  'signed': False,
+  'multilabel': False,
+  'multiclass': False,
+  'task': 1,
+  'sparse': True,
+  'target_type': 'classification'})),
+(0.020000, SimpleClassificationPipeline({'classifier:gradient_boosting:min_samples_split': 7, 'classifier:gradient_boosting:min_weight_fraction_leaf': 0.0, 'preprocessor:truncatedSVD:target_dim': 191, 'rescaling:__choice__': 'normalize', 'classifier:gradient_boosting:max_leaf_nodes': 'None', 'classifier:gradient_boosting:learning_rate': 0.021674185688168136, 'categorical_encoding:__choice__': 'one_hot_encoding', 'preprocessor:__choice__': 'truncatedSVD', 'classifier:__choice__': 'gradient_boosting', 'classifier:gradient_boosting:loss': 'deviance', 'classifier:gradient_boosting:max_features': 0.28305556128306375, 'classifier:gradient_boosting:subsample': 0.7470387059503986, 'classifier:gradient_boosting:min_samples_leaf': 18, 'classifier:gradient_boosting:criterion': 'mse', 'categorical_encoding:one_hot_encoding:use_minimum_fraction': 'True', 'classifier:gradient_boosting:max_depth': 7, 'classifier:gradient_boosting:n_estimators': 403, 'categorical_encoding:one_hot_encoding:minimum_fraction': 0.0004631891594745535, 'imputation:strategy': 'median', 'classifier:gradient_boosting:min_impurity_decrease': 0.0, 'balancing:strategy': 'none'},
+dataset_properties={
+  'signed': False,
+  'multilabel': False,
+  'multiclass': False,
+  'task': 1,
+  'sparse': True,
+  'target_type': 'classification'})),
+]
+Saving the best model discovered through auto-sklearn.
+Time per prediction : 0.0019853526616891762
+AutoSklearnClassifier(delete_output_folder_after_terminate=True,
+           delete_tmp_folder_after_terminate=True,
+           disable_evaluator_output=False, ensemble_nbest=50,
+           ensemble_size=50, exclude_estimators=None,
+           exclude_preprocessors=None, get_smac_object_callback=None,
+           include_estimators=None, include_preprocessors=None,
+           initial_configurations_via_metalearning=25,
+           ml_memory_limit=3072, output_folder=None,
+           per_run_time_limit=360, resampling_strategy='holdout',
+           resampling_strategy_arguments=None, seed=1, shared_mode=False,
+           smac_scenario_args=None, time_left_for_this_task=3600,
+           tmp_folder=None) Classification
+Accuracy: 99.17%
+                precision    recall  f1-score   support
+
+NadaSportswear       0.99      1.00      0.99      3055
+    Sportswear       0.99      0.98      0.98      1030
+
+   avg / total       0.99      0.99      0.99      4085
+
+Saving Confusion Matrices in the ./../../save/auto-sklearn/ directory
+Saving Confusion Matrices in the ./../../save/auto-sklearn/ directory
+[0.99, 1.0, 0.99]
+[0.99, 0.98, 0.98]
+Plot Matrix: [[0.99, 1.0, 0.99], [0.99, 0.98, 0.98]]
+Support: [3055, 1030]
+
+Saving Classification Report in the ./../../save/auto-sklearn/ directory
+
+
+****************** Ensembling done. Enjoy Life. :) *******************
+
+Process finished with exit code 0
