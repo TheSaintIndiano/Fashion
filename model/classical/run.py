@@ -3,8 +3,8 @@ __author__ = 'indiano'
 import argparse
 from multiprocessing import Process
 
-from model.classical.model_run_pipeline import ModelRunPipeline
-from model.classical.models import Models
+from models.classical.model_run_pipeline import ModelRunPipeline
+from models.classical.models import Models
 from utils.data_utils import DataUtils
 
 '''
@@ -51,7 +51,13 @@ def train(args):
     # Preparing dataset
     data = DataUtils(args)
     # Generating & saving dataframe from raw event folder
-    if args.raw_data_dir:
+    if args.hdf_file:
+        print('Raw data files will not be processed.\n')
+        print('{} file present.'.format(args.hdf_file))
+        pass
+    elif args.raw_data_dir:
+        print('Processing Raw data files.\n')
+        print('A hdf file will be generated for further exploration.')
         data.load_txt_files()
     data = data.prepare_data()
 
