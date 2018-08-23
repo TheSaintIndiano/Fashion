@@ -76,16 +76,18 @@ _Sampling_:
 
 The following table shows a model accuracy and time taken respectively.
 
-| Model                   | Accuracy     | Time        |
-|:-----------------------:|:------------:|:-----------:|
-| `XGB`                   | `96.28`      | Few Minutes |
-| Naive Bayes             | 90.01        | Few Minutes |
-| KNN                     | 90.35        | Few Minutes |
-| `Support Vector Machine`| `98.78`      | Few Minutes |
-| Auto-Sklearn            | 99.17        | 2 hours |
-| TPOT                    | 98.95        | 5 hours |
-| **Keras with Embedding**| **99.51**    | **5 mintutes** |
 
+
+                        | Model                   | Accuracy     | Time        |
+                        |:-----------------------:|:------------:|:-----------:|
+                        | `XGB`                   | `96.28`      | Few Minutes |
+                        | Naive Bayes             | 90.01        | Few Minutes |
+                        | KNN                     | 90.35        | Few Minutes |
+                        | `Support Vector Machine`| `98.78`      | Few Minutes |
+                        | Auto-Sklearn            | 99.17        | 2 hours |
+                        | TPOT                    | 98.95        | 5 hours |
+                        | **Keras with Embedding**| **99.51**    | **5 mintutes** |
+                        
 
 
 The accuracy of 99% has been acheived using Support Vector Machine, Keras LSTMs with Embedding. The best peforming model is Support Vector Machine due to less computation usage and time complexity.
