@@ -106,11 +106,8 @@ venv.bak/
 .mypy_cache/
 
 .idea/workspace.xml
-checkpoint/auto-sklearn/auto-sklearn.pickle
-checkpoint/keras/embed_tokenizer/*
-checkpoint/tpot/*
+checkpoint/*
 config/__pycache__/
-data/hdf/*
-data/raw/*
+data/*
 model/classical/__pycache__/
 utils/__pycache__/

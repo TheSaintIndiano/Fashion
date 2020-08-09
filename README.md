@@ -24,53 +24,11 @@ Algorithms used in different modules are as follow.
 >Every model has training & sampling scripts. After preprocessing the raw data, an hdf file containing URL texts and their labels will be created during the initialization phase of training.
 Folder indicates the location of each model's scripts.
 
-### Auto-Sklearn
 
+**Training**: `python run.py --data_dir --checkpoint_dir --save_dir`
 
-###### Folder : models.auto-sklearn/
+**Sampling**: `python sample.py --hdf_file --checkpoint_dir --save_dir --run_type sample`
 
-_Training_:
-
-`python run.py --data_dir "../../data/sportswear/events" --checkpoint_dir "../../checkpoint/auto-sklearn" --save_dir "../../save/auto-sklearn"`
-
-_Sampling_:
-
-`python run.py --hdf_file "../../data/hdf/sportswear" --checkpoint_dir "../../checkpoint/auto-sklearn" --save_dir "../../save/auto-sklearn" --run_type sample`
-
-### TPOT
-
-###### Folder : models/auto-tpot/
-
-_Training_:
-
-`python run.py --data_dir "../../data/sportswear/events" --checkpoint_dir "../../checkpoint/auto-tpot" --save_dir "../../save/auto-tpot"`
-
-_Sampling_:
-
-`python sample.py --hdf_file "../../data/hdf/sportswear" --checkpoint_dir "../../checkpoint/auto-tpot" --save_dir "../../save/auto-tpot"`
-
-### Classical models (XGB, KNN, Naive Bayes, Support Vector)
-
-###### Folder : models/classical/
-
-`python run.py --data_dir "../../data/sportswear/events" --checkpoint_dir "../../checkpoint/classical" --save_dir "../../save/classical"`
-
-
-### Keras
-
-###### Folder : models/keras/
-
-1. Using Keras Tokenizer with Embedding layer
-2. Using Keras Tokenizer with TF-IDF 
-3. Using Keras with TF-IDF only
-
-_Training_:
-
-`python run.py --data_dir "../../data/sportswear/events" --checkpoint_dir "../../checkpoint/keras" --save_dir "../../save/keras"`
-
-_Sampling_:
-
-`python run.py --hdf_file "../../data/hdf/sportswear" --checkpoint_dir "../../checkpoint/keras" --save_dir "../../save/keras" --run_type sample`
 
 ### Results
 
