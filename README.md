@@ -27,7 +27,7 @@ Folder indicates the location of each model's scripts.
 
 **Training**: `python run.py --data_dir --checkpoint_dir --save_dir`
 
-**Sampling**: `python run.py --hdf_file --checkpoint_dir --save_dir --run_type`
+**Sampling**: `python sample.py --hdf_file --checkpoint_dir --save_dir --run_type sample`
 
 
 ### Results
