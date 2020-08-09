@@ -106,8 +106,8 @@ venv.bak/
 .mypy_cache/
 
 .idea/workspace.xml
-checkpoint/*
+!checkpoint/*
 config/__pycache__/
-data/*
+!data/*
 model/classical/__pycache__/
 utils/__pycache__/
