@@ -30,7 +30,7 @@ Folder indicates the location of each model's scripts.
 **Sampling**: `python sample.py --hdf_file --checkpoint_dir --save_dir --run_type sample`
 
 
-### Results
+# Results
 
 The following table shows a model accuracy and time taken respectively.
 
